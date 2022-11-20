@@ -10,12 +10,12 @@ export default function Hero() {
             Bristolu
           </span>
         </h1>
-        <p className="text-lg xl:text-2xl mb-7 py-4">
+        <p className="text-lg xl:text-2xl mb-7 py-4 md:px-8 ">
           Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie
           tradycje i obyczaje, stając się ambasadorami kultury polskiej na
           świecie.
         </p>
-        <button className="dark:bg-gray-900 hover:bg-gray-700 px-6 py-4 rounded-lg text-white mr-2 mb-2">
+        <button className="bg-gray-900 hover:bg-gray-700 px-6 py-4 rounded-lg text-white mr-2 mb-2">
           Wyślij wiadomość
         </button>
       </div>

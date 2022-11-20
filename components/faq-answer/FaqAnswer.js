@@ -44,7 +44,7 @@ export default function FaqAnswer({ title, children }) {
         className="flex items-center focus:outline-none"
       >
         {open ? iconOpen : iconClosed}
-        <h4 className="mx-4 text-xl text-gray-700 dark:text-white">{title}</h4>
+        <h4 className="mx-4 text-xl text-white">{title}</h4>
       </button>
       {open && (
         <div className="flex mt-8 md:mx-10">

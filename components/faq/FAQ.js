@@ -3,12 +3,12 @@ import FaqAnswer from '../faq-answer/FaqAnswer'
 
 export default function FAQ() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-gray-900">
       <div className="container px-6 py-10 mx-auto">
-        <h4 className="text-4xl font-semibold text-gray-800 dark:text-white">
+        <h4 className="text-4xl font-semibold text-white">
           Najczesciej zadawane pytania
         </h4>
-        <hr className="my-6 border-gray-200 dark:border-gray-700" />
+        <hr className="my-6 dark:border-gray-700" />
         <FaqAnswer title="Nasze placowki">
           <p className="font-bold">Prowadzimy 2 placowki w Bristolu: </p>
           <br />
