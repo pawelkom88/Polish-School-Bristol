@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-clr: #f4f2ed
+}
+
 body {
   font-family: 'Questrial', sans-serif;
-  background-color: #f4f2ed;
+  background-color: var(--bg-clr);
 }
 
 h3 {
