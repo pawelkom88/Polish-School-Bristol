@@ -12,13 +12,17 @@
     "@fontsource/questrial": "^4.5.10",
     "@fontsource/teko": "^4.5.9",
     "@lottiefiles/lottie-player": "^1.6.0",
+    "@react-google-maps/api": "^2.17.0",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
     "eslint-config-prettier": "^8.5.0",
     "next": "13.0.4",
+    "next-seo": "^5.14.1",
+    "next-sitemap": "^3.1.32",
     "prettier": "^2.7.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-focus-lock": "^2.9.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
