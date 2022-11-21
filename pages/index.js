@@ -10,12 +10,12 @@ export default function Home() {
     <>
       <div className="h-screen ">
         <Navigation />
+        <Hero />
         <main>
-          <Hero />
           <FAQ />
         </main>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
