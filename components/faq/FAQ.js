@@ -1,9 +1,9 @@
-import React from 'react'
-import FaqAnswer from '../faq-answer/FaqAnswer'
+import React from 'react';
+import FaqAnswer from '../faq-answer/FaqAnswer';
 
 export default function FAQ() {
   return (
-    <section className="bg-gray-900">
+    <section className="min-h-[80vh] flex justify-center items-center bg-gray-900">
       <div className="container px-6 py-10 mx-auto">
         <h4 className="text-4xl font-semibold text-white">
           Najczesciej zadawane pytania
@@ -47,5 +47,5 @@ export default function FAQ() {
         <hr className="my-8  border-gray-700" />
       </div>
     </section>
-  )
+  );
 }
