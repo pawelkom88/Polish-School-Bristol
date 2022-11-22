@@ -1,0 +1,32 @@
+{
+    "theme_color": "#f4f2ed",
+    "background_color": "#111827",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Polska Szko\u0142a J\u0119zyka i Kultury w Bristolu",
+    "short_name": "PS-Bristol",
+    "description": "Polska Szko\u0142a J\u0119zyka i Kultury w Bristolu\"         description=\"Nasz\u0105 misj\u0105 jest, aby uczniowie poznali i piel\u0119gnowali polskie tradycje i obyczaje, staj\u0105c si\u0119 ambasadorami kultury polskiej na \u015bwiecie.",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

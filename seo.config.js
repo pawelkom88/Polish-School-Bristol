@@ -1,4 +1,3 @@
-
 export const favicon = [
   {
     rel: 'icon',
@@ -11,6 +10,6 @@ export const favicon = [
   },
   {
     rel: 'manifest',
-    href: '/site.webmanifest',
+    href: 'manifest.json',
   },
-]
+];
