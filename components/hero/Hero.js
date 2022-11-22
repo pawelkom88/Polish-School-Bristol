@@ -18,13 +18,13 @@ export default function Hero() {
             świecie.
           </p>
           <Link href="/bedminister">
-            <Button className="bg-gray-900 hover:bg-primary-clr px-4 py-2 rounded-lg text-white hover:text-gray-900 mr-2 mb-2 border-2 border-gray-900 border-solid">
+            <Button className="bg-btn1-clr hover:bg-primary-clr px-4 py-2 rounded-lg text-white hover:text-gray-900 mr-2 mb-2 border-2 border-btn1-clr border-solid">
               Bedminister
             </Button>
           </Link>
           <Link href="/oasis">
-            <Button className="bg-primary-clr hover:bg-gray-700 px-4 py-2 rounded-lg text-gray-700 hover:text-white mr-2 mb-2 border-2 border-gray-700 border-solid">
-              Oasis Academy
+            <Button className="bg-btn2-clr hover:bg-primary-clr px-4 py-2 rounded-lg text-white hover:text-gray-900 mr-2 mb-2 border-2 border-btn2-clr border-solid">
+            Lawrence Weston
             </Button>
           </Link>
         </div>
@@ -32,3 +32,5 @@ export default function Hero() {
     </>
   );
 }
+
+

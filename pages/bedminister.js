@@ -5,7 +5,7 @@ import Footer from '../components/footer/Footer';
 import Details from '../components/details/Details';
 
 export default function Bedminister({ data }) {
-  const { name, location, content, socialMedia } = data[0];
+  const { name, location, content, socialMedia, topBarClass } = data[0];
 
   const contact = {
     eMail: process.env.NEXT_PUBLIC_MAIL_BEDMINISTER,
@@ -23,6 +23,7 @@ export default function Bedminister({ data }) {
             location={location}
             contact={contact}
             socialMedia={socialMedia}
+            topBarClass={topBarClass}
           />
           <Map location={location} />
         </article>

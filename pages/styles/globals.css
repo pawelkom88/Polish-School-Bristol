@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --bg-clr: #f4f2ed
+  --bg-clr: #f4f2ed;
+  --btn1-clr: #3d992b;
+  --btn2-clr: #5d90ee;
 }
 
 body {

@@ -6,16 +6,15 @@ export default function Details({
   contact,
   location,
   socialMedia,
+  topBarClass,
 }) {
   return (
-    <div className="overflow-hidden bg-gray-900">
+    <div className={`${topBarClass} overflow-hidden`}>
       <div className="px-4 py-5 sm:px-6">
-        <h1 className="text-4xl md:text-6xl my-2 font-medium leading-6 text-white">
+        <h1 className="text-4xl md:text-5xl my-2 font-medium leading-6 text-white">
           {name}
         </h1>
-        <p className="mt-2 max-w-2xl text-lg text-gray-200">
-          {location.address}
-        </p>
+        <p className="mt-2 max-w-2xl text-lg text-white">{location.address}</p>
       </div>
       <div className="border-t border-gray-200">
         <dl>
@@ -46,11 +45,11 @@ export default function Details({
             <dd className="mt-1 text-lg text-gray-900 sm:col-span-2 sm:mt-0">
               <a
                 className="hover:text-indigo-500"
-                href={`mailTo:${socialMedia}`}
+                href={socialMedia}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <a href={socialMedia} target="_blank" rel="noopener noreferrer">
-                  <Image src="/fb.svg" width={30} height={30} alt="fb icon" />
-                </a>
+                <Image src="/fb.svg" width={30} height={30} alt="fb icon" />
               </a>
             </dd>
           </div>
