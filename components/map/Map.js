@@ -1,15 +1,17 @@
-import React from 'react';
+import { useMemo } from 'react';
 import { GoogleMap, useLoadScript, MarkerF } from '@react-google-maps/api';
+import Spinner from '../spinner/Spinner';
 
 const containerStyle = {
-  width: '100%',
-  minHeight: '300px',
+  maxWidth: '1280px',
+  minHeight: '50vh',
+  margin: '0 auto 1rem',
 };
 
 export default function Map({ location }) {
   const { lat, lng } = location;
 
-  const position = React.useMemo(
+  const position = useMemo(
     () => ({
       lat,
       lng,
@@ -24,7 +26,7 @@ export default function Map({ location }) {
 
   return (
     <>
-      {isLoaded && (
+      {isLoaded ? (
         <GoogleMap
           mapContainerStyle={containerStyle}
           zoom={14}
@@ -32,6 +34,8 @@ export default function Map({ location }) {
         >
           <MarkerF position={position} />
         </GoogleMap>
+      ) : (
+        <Spinner />
       )}
       {loadError && 'error'}
     </>

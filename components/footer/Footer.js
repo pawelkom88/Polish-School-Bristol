@@ -1,9 +1,11 @@
-import React from 'react';
-
-export default function Footer() {
+export default function Footer({ socialMedia }) {
   return (
-    <footer className="h-24">
-      <div className=" my-4 text-center">FOOTER</div>
+    <footer className="h-18">
+      <div className=" my-4 flex items-center justify-center flex-col">
+        <small className="my-2">
+          Polska Szkoła w Bristolu - Wszelkie prawa zastrzeżone
+        </small>
+      </div>
     </footer>
   );
 }

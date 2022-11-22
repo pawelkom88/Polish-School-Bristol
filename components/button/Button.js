@@ -1,20 +1,3 @@
-export default function Button({
-  id,
-  children,
-  className,
-  onModalOpen,
-  onModalData,
-}) {
-  return (
-    <>
-      <button
-        onClick={() => {
-          onModalOpen(), onModalData(id);
-        }}
-        className={className}
-      >
-        {children}
-      </button>
-    </>
-  );
+export default function Button({ children, className }) {
+  return <button className={className}>{children}</button>;
 }

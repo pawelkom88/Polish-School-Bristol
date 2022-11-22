@@ -1,7 +1,9 @@
-import { NextSeo } from 'next-seo'
-import { favicon } from '../seo.config'
-
-import './styles/globals.css'
+import { NextSeo } from 'next-seo';
+import { favicon } from '../seo.config';
+import data from '../data/data.json';
+import '@fontsource/questrial';
+import '@fontsource/teko';
+import './styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -41,9 +43,9 @@ function MyApp({ Component, pageProps }) {
           cardType: 'summary_large_image',
         }}
       />
-      <Component {...pageProps} />
+      <Component data={data} {...pageProps} />
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

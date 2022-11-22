@@ -7,8 +7,8 @@
       "lat": 51.44317,
       "lng": -2.59923
     },
-    "className": "bg-gray-900 hover:bg-primary-clr px-6 py-4 rounded-lg text-white hover:text-gray-900 mr-2 mb-2 border-2 border-gray-700 border-solid",
-    "content": "content"
+    "content": "content",
+    "socialMedia": "https://www.facebook.com/PolskaSzkolaJezykaiKulturyHolyCross"
   },
   {
     "id": "Oasis Academy",
@@ -18,7 +18,7 @@
       "lat": 51.50663,
       "lng": -2.64926
     },
-    "className": " hover:bg-gray-700 px-6 py-4 rounded-lg text-gray-700 hover:text-white mr-2 mb-2 border-2 border-gray-700 border-solid",
-    "content": "content"
+    "content": "content",
+    "socialMedia": "https://www.facebook.com/PolishSchoolBristol"
   }
 ]
