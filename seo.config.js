@@ -2,7 +2,7 @@
 export const favicon = [
   {
     rel: 'icon',
-    href: '/faviconico',
+    href: '/favicon.ico',
   },
   {
     rel: 'apple-touch-icon',
