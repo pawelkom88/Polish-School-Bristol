@@ -10,32 +10,31 @@ function MyApp({ Component, pageProps }) {
     <>
       <NextSeo
         additionalLinkTags={favicon}
-        title="Using More of Config"
-        description="This example uses more of the available config options."
-        canonical="https://www.canonical.ie/"
+        title="Polska Szkoła Języka i Kultury w Bristolu"
+        description="Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie tradycje i obyczaje, stając się ambasadorami kultury polskiej na świecie."
+        canonical="ps-bristol.netlify.app"
         openGraph={{
-          url: 'https://www.url.ie/a',
-          title: 'Open Graph Title',
-          description: 'Open Graph Description',
+          url: 'ps-bristol.netlify.app',
+          title: 'Polska Szkoła Języka i Kultury w Bristolu',
+          description:
+            'Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie tradycje i obyczaje, stając się ambasadorami kultury polskiej na świecie.',
           images: [
             {
-              url: 'https://www.example.ie/og-image-01.jpg',
+              url: '/ps-bistol-social-media-card.webp',
               width: 800,
               height: 600,
-              alt: 'Og Image Alt',
-              type: 'image/jpeg',
+              alt: 'Polska Szkoła Języka i Kultury w Bristolu',
+              type: 'image/webp',
             },
             {
-              url: 'https://www.example.ie/og-image-02.jpg',
+              url: '/ps-bistol-social-media-card.webp',
               width: 900,
               height: 800,
-              alt: 'Og Image Alt Second',
-              type: 'image/jpeg',
+              alt: 'Polska Szkoła Języka i Kultury w Bristolu',
+              type: 'image/webp',
             },
-            { url: 'https://www.example.ie/og-image-03.jpg' },
-            { url: 'https://www.example.ie/og-image-04.jpg' },
           ],
-          siteName: 'SiteName',
+          siteName: 'Polska Szkoła Języka i Kultury w Bristolu',
         }}
         twitter={{
           handle: '@handle',

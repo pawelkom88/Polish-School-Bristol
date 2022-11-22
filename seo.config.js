@@ -2,11 +2,11 @@
 export const favicon = [
   {
     rel: 'icon',
-    href: '/favicon-32x32.png',
+    href: '/faviconico',
   },
   {
     rel: 'apple-touch-icon',
-    href: '/apple-touch-icon.png',
+    href: '/favicon.ico',
     sizes: '76x76',
   },
   {
