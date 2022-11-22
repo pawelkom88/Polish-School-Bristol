@@ -20,14 +20,14 @@ function MyApp({ Component, pageProps }) {
             'Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie tradycje i obyczaje, stając się ambasadorami kultury polskiej na świecie.',
           images: [
             {
-              url: '/ps-bistol-social-media-card.webp',
+              url: 'https://github.com/pawelkom88/Polish-School-Bristol/blob/main/public/ps-bistol-social-media-card.webp?raw=true',
               width: 800,
               height: 600,
               alt: 'Polska Szkoła Języka i Kultury w Bristolu',
               type: 'image/webp',
             },
             {
-              url: '/ps-bistol-social-media-card.webp',
+              url: 'https://github.com/pawelkom88/Polish-School-Bristol/blob/main/public/ps-bistol-social-media-card.webp?raw=true',
               width: 900,
               height: 800,
               alt: 'Polska Szkoła Języka i Kultury w Bristolu',
