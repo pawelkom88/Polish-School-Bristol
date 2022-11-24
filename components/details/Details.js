@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 export default function Details({
+  id,
   name,
   content,
   contact,
@@ -8,17 +9,21 @@ export default function Details({
   socialMedia,
   topBarClass,
 }) {
+  const bgClr = id === 'Bedminister' ? 'bg-bg2-clr' : 'bg-bg1-clr';
+  console.log(id, bgClr);
   return (
-    <div className={`${topBarClass} overflow-hidden`}>
+    <div className={`${topBarClass} overflow-hidden border-2`}>
       <div className="px-4 py-5 sm:px-6">
-        <h1 className="text-4xl md:text-5xl my-2 font-medium leading-6 text-white">
+        <h1 className="text-3xl md:text-5xl my-2 font-medium leading-10 text-white">
           {name}
         </h1>
         <p className="mt-2 max-w-2xl text-lg text-white">{location.address}</p>
       </div>
       <div className="border-t border-gray-200">
         <dl>
-          <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <div
+            className={`${bgClr} px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6`}
+          >
             <dt className="text-lg font-medium text-gray-900">Telefon:</dt>
             <dd className="mt-1 text-lg text-gray-900 sm:col-span-2 sm:mt-0">
               <a
@@ -40,7 +45,9 @@ export default function Details({
               </a>
             </dd>
           </div>
-          <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <div
+            className={`${bgClr} px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6`}
+          >
             <dt className="text-lg font-medium text-gray-900">Social media:</dt>
             <dd className="mt-1 text-lg text-gray-900 sm:col-span-2 sm:mt-0">
               <a
