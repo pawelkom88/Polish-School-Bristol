@@ -2,6 +2,7 @@
   {
     "id": "Bedminister",
     "name": "Holy Cross (Bedminster)",
+    "link": "bedminister",
     "location": {
       "address": "Holy Cross Primary School, Dean Ln, Bedminster, BS3 1DB",
       "lat": 51.44317,
@@ -9,11 +10,13 @@
     },
     "content": "content",
     "socialMedia": "https://www.facebook.com/PolskaSzkolaJezykaiKulturyHolyCross",
-    "topBarClass": "bg-btn1-clr"
+    "topBarClass": "bg-btn1-clr",
+    "cardIcon": "/card-icon1.svg"
   },
   {
-    "id": "Oasis Academy",
+    "id": "Lawrence Weston",
     "name": "Oasis Academy Bank Leaze (Lawrence Weston)",
+    "link": "oasis",
     "location": {
       "address": "Oasis Academy Bank Leaze, BS11 0SN",
       "lat": 51.50663,
@@ -21,6 +24,7 @@
     },
     "content": "content",
     "socialMedia": "https://www.facebook.com/PolishSchoolBristol",
-    "topBarClass": "bg-btn2-clr"
+    "topBarClass": "bg-btn2-clr",
+    "cardIcon": "/card-icon2.svg"
   }
 ]
