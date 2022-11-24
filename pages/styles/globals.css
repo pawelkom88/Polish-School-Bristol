@@ -3,18 +3,35 @@
 @tailwind utilities;
 
 :root {
-  --bg-clr: #f4f2ed;
+  --bg-clr: #ffffff;
+  --bg1-clr: #eef5fe;
+  --bg2-clr: #e9efdd;
+  --text-clr: #212529;
   --btn1-clr: #3d992b;
   --btn2-clr: #5d90ee;
+}
+
+@font-face {
+  font-family: 'Luckiest-Guy';
+  src: url('/Luckiest-Guy.ttf.woff') format('woff'),
+    url('/Luckiest-Guy.ttf.svg#Luckiest-Guy') format('svg'),
+    url('/Luckiest-Guy.ttf.eot'),
+    url('/Luckiest-Guy.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   font-family: 'Questrial', sans-serif;
   background-color: var(--bg-clr);
+  color: var(--text-clr);
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
+h1,
 h3 {
-  font-family: 'Teko', sans-serif;
+  font-family: 'Luckiest-Guy', sans-serif;
 }
 
 .bg-underline1 {
@@ -23,4 +40,32 @@ h3 {
 
 .bg-highlight3 {
   background-image: url('/Highlight3.svg');
+}
+
+.tape,
+.tape2 {
+  position: absolute;
+  top: -1.8rem;
+  width: 90px;
+  height: 90px;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.tape {
+  left: -1.2rem;
+  transform: rotate(15deg);
+  background-image: url('/tape-particle1.svg');
+}
+
+.tape2 {
+  right: -2.2rem;
+  background-image: url('/tape-particle-2.svg');
+}
+
+@media (max-width: 800px) {
+  .tape,
+  .tape2 {
+    display: none;
+  }
 }
