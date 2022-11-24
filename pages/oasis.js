@@ -5,7 +5,7 @@ import Details from '../components/details/Details';
 import Footer from '../components/footer/Footer';
 
 export default function Oasis({ data }) {
-  const { name, location, content, socialMedia, topBarClass } = data[1];
+  const { id, name, location, content, socialMedia, topBarClass } = data[1];
 
   const contact = {
     eMail: process.env.NEXT_PUBLIC_MAIL_OASIS,
@@ -18,6 +18,7 @@ export default function Oasis({ data }) {
       <main>
         <article className="min-h-[50vh] max-w-7xl mx-auto md:mt-16 mt-4">
           <Details
+            id={id}
             name={name}
             content={content}
             location={location}

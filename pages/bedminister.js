@@ -5,7 +5,7 @@ import Footer from '../components/footer/Footer';
 import Details from '../components/details/Details';
 
 export default function Bedminister({ data }) {
-  const { name, location, content, socialMedia, topBarClass } = data[0];
+  const { id, name, location, content, socialMedia, topBarClass } = data[0];
 
   const contact = {
     eMail: process.env.NEXT_PUBLIC_MAIL_BEDMINISTER,
@@ -18,6 +18,7 @@ export default function Bedminister({ data }) {
       <main>
         <article className="min-h-[50vh] max-w-7xl mx-auto md:mt-16 mt-4">
           <Details
+            id={id}
             name={name}
             content={content}
             location={location}
