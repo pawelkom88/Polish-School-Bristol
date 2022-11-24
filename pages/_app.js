@@ -2,7 +2,6 @@ import { NextSeo } from 'next-seo';
 import { favicon } from '../seo.config';
 import data from '../data/data.json';
 import '@fontsource/questrial';
-import '@fontsource/teko';
 import './styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
