@@ -1,6 +1,10 @@
 import Hero from '../components/hero/Hero';
+import History from '../components/history/History';
 import Navigation from '../components/navigation/Navigation';
 import SchoolUnit from '../components/units/SchoolUnit';
+import Section from '../components/section/Section';
+import WhyUs from '../components/why-us/whyUs';
+import Footer from '../components/footer/Footer';
 
 export default function Home() {
   return (
@@ -9,7 +13,12 @@ export default function Home() {
       <main className="max-w-7xl flex justify-center items-center flex-col md:mt-18 mt-24 mx-auto">
         <Hero />
         <SchoolUnit />
+        <Section title="Historia SZKOŁY">
+          <History />
+        </Section>
       </main>
+      <WhyUs />
+      <Footer />
     </>
   );
 }

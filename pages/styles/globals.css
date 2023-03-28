@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --bg-clr: #ffffff;
+  --bg-clr: #fff;
   --bg1-clr: #eef5fe;
   --bg2-clr: #e9efdd;
   --text-clr: #212529;
   --btn1-clr: #3d992b;
   --btn2-clr: #5d90ee;
+  --red-clr: #dc2626;
+  --orange-clr: #f4ae45;
 }
 
 @font-face {
@@ -30,7 +32,7 @@ body {
 }
 
 h1,
-h3 {
+h2 {
   font-family: 'Luckiest-Guy', sans-serif;
 }
 

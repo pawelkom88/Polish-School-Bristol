@@ -24,15 +24,10 @@ export default function Hero() {
         src="/polish-flag.svg"
         alt="Logo"
       />
-      <h1 className="xl:text-5xl text-4xl font-bold mb-7">
-        Polska Szkoła Języka i Kultury w{' '}
-        <span className="bg-underline1 bg-left-bottom bg-no-repeat pb-2 bg-100%">
-          Bristolu
-        </span>
-      </h1>
+      <h1 className="xl:text-7xl text-4xl font-bold mb-7">Polska to my !</h1>
       <p className="text-lg xl:text-xl mb-2 py-4 md:px-8 ">
-        Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie tradycje
-        i obyczaje, stając się ambasadorami kultury polskiej na świecie.
+        Chcemy, aby nasi uczniowie poznali i pielęgnowali polskie tradycje i
+        obyczaje, stając się ambasadorami kultury polskiej na świecie.
       </p>
     </section>
   );

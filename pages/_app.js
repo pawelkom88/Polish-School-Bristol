@@ -11,10 +11,10 @@ function MyApp({ Component, pageProps }) {
         additionalLinkTags={favicon}
         title="Polska Szkoła Języka i Kultury w Bristolu"
         description="Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie tradycje i obyczaje, stając się ambasadorami kultury polskiej na świecie."
-        canonical="ps-bristol.netlify.app"
+        canonical="ps-bristol.netlify.app"  // change make dynamic
         openGraph={{
-          url: 'ps-bristol.netlify.app',
-          title: 'Polska Szkoła Języka i Kultury w Bristolu',
+          url: 'ps-bristol.netlify.app', // change make dynamic
+          title: 'Polska Szkoła Języka i Kultury w Bristolu', // change make dynamic
           description:
             'Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie tradycje i obyczaje, stając się ambasadorami kultury polskiej na świecie.',
           images: [
