@@ -4,7 +4,7 @@ import Navigation from '../components/navigation/Navigation';
 import SchoolUnit from '../components/units/SchoolUnit';
 import Section from '../components/section/Section';
 import Footer from '../components/footer/Footer';
-// import WhyUs from '../components/why-us/WhyUs';
+import WhyUs from '../components/why-us/WhyUs';
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
           <History />
         </Section>
       </main>
-      {/* <WhyUs /> */}
+      <WhyUs />
       <Footer />
     </>
   );
