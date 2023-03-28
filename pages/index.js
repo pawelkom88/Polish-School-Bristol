@@ -3,8 +3,8 @@ import History from '../components/history/History';
 import Navigation from '../components/navigation/Navigation';
 import SchoolUnit from '../components/units/SchoolUnit';
 import Section from '../components/section/Section';
-import WhyUs from '../components/why-us/whyUs';
 import Footer from '../components/footer/Footer';
+import WhyUs from '../components/why-us/whyUs';
 
 export default function Home() {
   return (
@@ -19,6 +19,6 @@ export default function Home() {
       </main>
       <WhyUs />
       <Footer />
-    </>
+    </Why>
   );
 }
