@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="relative h-full md:-mt-12 flex flex-col justify-center items-center text-center px-8 ">
+    <section className="relative h-full -mt-16 md:-mt-12 flex flex-col justify-center items-center text-center">
       <Image
         className="hidden md:block absolute -left-12 top-14 animate-spin-slow"
         width={65}

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function History() {
   return (
-    <p className="text-lg">
+    <p className="text-lg sm:text-center indent-3.5">
       Szkoła powstała w 2018, aby wspierać liczną polską społeczność w
       południowej – zachodniej Anglii i Walii. Oryginalnie nasza szkoła została
       założona w Newport jako Polska Szkoła im. Armii Andersa w Newport CIC.

@@ -10,7 +10,7 @@ export default function Details({
   topBarClass,
 }) {
   const bgClr = id === 'Bedminister' ? 'bg-bg2-clr' : 'bg-bg1-clr';
-  console.log(id, bgClr);
+ 
   return (
     <div className={`${topBarClass} overflow-hidden border-2`}>
       <div className="px-4 py-5 sm:px-6">

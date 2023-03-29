@@ -1,4 +1,5 @@
-export default function Footer({ socialMedia }) {
+
+export default function Footer() {
   return (
     <footer className="h-18">
       <div className=" my-4 flex items-center justify-center flex-col">

@@ -1,6 +1,8 @@
+import Navigation from '../components/navigation/Navigation';
+import Footer from '../components/footer/Footer';
 import { NextSeo } from 'next-seo';
 import { favicon } from '../seo.config';
-import data from '../data/data.json';
+import { schoolData } from '../data/data.js';
 import '@fontsource/questrial';
 import './styles/globals.css';
 
@@ -11,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         additionalLinkTags={favicon}
         title="Polska Szkoła Języka i Kultury w Bristolu"
         description="Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie tradycje i obyczaje, stając się ambasadorami kultury polskiej na świecie."
-        canonical="ps-bristol.netlify.app"  // change make dynamic
+        canonical="ps-bristol.netlify.app" // change make dynamic
         openGraph={{
           url: 'ps-bristol.netlify.app', // change make dynamic
           title: 'Polska Szkoła Języka i Kultury w Bristolu', // change make dynamic
@@ -41,7 +43,9 @@ function MyApp({ Component, pageProps }) {
           cardType: 'summary_large_image',
         }}
       />
-      <Component data={data} {...pageProps} />
+      <Navigation />
+      <Component data={schoolData} {...pageProps} />
+      <Footer />
     </>
   );
 }

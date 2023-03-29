@@ -4,7 +4,7 @@ export default function Section({ children, title }) {
       <h2 className="xl:text-5xl text-4xl text-center font-bold mb-7">
         {title}
       </h2>
-      <article className="px-10">{children}</article>
+      <article>{children}</article>
     </section>
   );
 }

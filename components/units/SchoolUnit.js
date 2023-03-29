@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import SchoolCard from '../card/SchoolCard';
-import data from '../../data/data.json';
+import { schoolData } from '../../data/data.js';
 
 export default function SchoolUnit() {
   return (
-    <section className="w-full flex flex-col justify-center items-center mb-8 px-10">
+    <section className="w-full flex flex-col justify-center items-center my-8">
       <p className="text-lg xl:text-xl text-center mb-4">
         Podaruj swojemu dziecko dwujęzyczność i zapisz je do jednej z naszych
         placówek:
@@ -28,8 +28,7 @@ export default function SchoolUnit() {
         </div>
       </div>
       <div className="relative w-full grid  md:grid-flow-col auto-cols-fr gap-5">
-        {/* <div className="relative w-full grid grid-cols-1 md:grid-cols-2 gap-5"> */}
-        {data.map((data) => {
+        {schoolData.map((data) => {
           return <SchoolCard key={data.id} data={data} />;
         })}
       </div>
