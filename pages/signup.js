@@ -39,14 +39,14 @@ export default function Signup() {
               </li>
               <li className="list-img">
                 <span className="pl-2">
-                  Wyślij na
+                  Wyślij na{' '}
                   <a
                     style={{ color: '#3d992b', fontWeight: 'bold' }}
                     href="mailto:PolishSchoolBristol@gmail.com"
                   >
                     PolishSchoolBristol@gmail.com
                   </a>{' '}
-                  /{' '}
+                  lub{' '}
                   <a
                     style={{ color: '#5d90ee', fontWeight: 'bold' }}
                     href="mailto:PolishSchoolBristol2@gmail.com"
@@ -60,10 +60,12 @@ export default function Signup() {
         </div>
         <div className="lg:basis-1/3">
           <Image
+            blurDataURL="/signup-placeholder.png"
+            placeholder="blur"
             className="w-full"
             src="/signup-img.png"
-            width={650}
-            height={600}
+            width={720}
+            height={514}
             alt="School icon"
           />
         </div>
