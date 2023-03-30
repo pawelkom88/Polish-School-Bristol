@@ -1,22 +1,21 @@
+import Icon from '../icons/Icon';
 import Image from 'next/image';
 
 export default function Hero() {
   return (
     <section className="relative h-full -mt-16 md:-mt-12 flex flex-col justify-center items-center text-center">
-      <Image
-        className="hidden md:block absolute -left-12 top-14 animate-spin-slow"
-        width={65}
-        height={65}
+      <Icon
+        src="/cloud.svg"
+        size={{ width: 85, height: 85 }}
+        position="-right-8 top-8"
+      />
+      <Icon
         src="/star.svg"
-        alt="star"
+        size={{ width: 65, height: 65 }}
+        position="-left-12 top-24"
+        animate={true}
       />
-      <Image
-        className="hidden md:block absolute -right-12 top-8"
-        width={85}
-        height={85}
-        src="/Cloud.svg"
-        alt="star"
-      />
+
       <Image
         className="my-4"
         width={220}
