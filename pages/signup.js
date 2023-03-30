@@ -17,15 +17,17 @@ export default function Signup() {
         <h1 className="xl:text-5xl text-3xl font-bold">
           JAK ZAPISAĆ DZIECKO ?
         </h1>
-        <Image
-          className="hidden xl:block"
-          width={40}
-          height={40}
-          src="/icons/Heart.svg"
-          alt="flower"
-        />
+        <div>
+          <Icon
+            size={{ width: 40, height: 40 }}
+            position="relative hidden xl:block"
+            src="/icons/Heart.svg"
+          />
+        </div>
       </div>
+
       <Form />
+
       <div className="relative">
         <h2 className="xl:text-5xl text-3xl font-bold mb-12 text-center mt-24 md:mt-0">
           PŁATNOŚCI
@@ -33,11 +35,14 @@ export default function Signup() {
         <Icon
           src="/icons/Flower.svg"
           size={{ width: 45, height: 45 }}
-          position="left-20 top-0"
+          position="-left-20 top-0"
           animate={true}
         />
+      </div>
+
+      <div className="w-full flex flex-wrap justify-center items-center">
         <Image
-          className="mb-8"
+          className="grow b-8"
           src="/teacher-bro.svg"
           width={550}
           height={350}
@@ -46,8 +51,9 @@ export default function Signup() {
         <a className="hidden" href="https://storyset.com/education">
           Education illustrations by Storyset
         </a>
+        <Fees />
       </div>
-      <Fees />
+
       <FeesDescription />
 
       {/* component?? */}
