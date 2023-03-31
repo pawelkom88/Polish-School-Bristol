@@ -1,6 +1,6 @@
-import FAQ from '../components/faq/FAQ';
-import Map from '../components/map/Map';
-import Details from '../components/details/Details';
+import FAQ from '@components/faq/FAQ';
+import Map from '@components/map/Map';
+import Details from '@components/details/Details';
 
 export default function Oasis({ data }) {
   const contact = {

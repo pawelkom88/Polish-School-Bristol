@@ -1,5 +1,5 @@
-import { cardData } from '../../data/cardData';
-import Card from '../card/Card';
+import { cardData } from '@data/cardData';
+import Card from '@components/card/Card';
 
 export default function WhyUs() {
   return (

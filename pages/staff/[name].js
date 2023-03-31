@@ -1,8 +1,8 @@
-import StaffCard from '../../components/staff/staff-card/StaffCard';
-import Layout from '../../components/layout/Layout';
+import StaffCard from '@components/staff/staff-card/StaffCard';
+import Layout from '@components/layout/Layout';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { staffOasis } from '../../data/data';
+import { staffOasis } from '@data/data';
 
 export default function School() {
   const router = useRouter();

@@ -11,8 +11,8 @@ export const schoolData = [
     socialMedia: 'https://www.facebook.com/PolskaSzkolaJezykaiKulturyHolyCross',
     topBarClass: 'bg-btn1-clr',
     cardIcon: '/logo-holy-cross.webp',
-    tel: 'TEL_BEDMINISTER',
-    mail: 'MAIL_BEDMINISTER',
+    tel: '07307069563',
+    mail: 'polishschoolbristol2@gmail.com',
   },
   {
     id: 1,
@@ -26,9 +26,16 @@ export const schoolData = [
     socialMedia: 'https://www.facebook.com/PolishSchoolBristol',
     topBarClass: 'bg-btn2-clr',
     cardIcon: '/logo-oasis.webp',
-    tel: 'TEL_OASIS',
-    mail: 'TEL_OASIS',
+    tel: '07749651740',
+    mail: 'polishschoolbristol@gmail.com',
   },
+];
+
+export const generalFees = [
+  { id: 1, price: '£14 za pierwsze dziecko' },
+  { id: 2, price: '£10 za pierwsze dziecko' },
+  { id: 3, price: '£7 za pierwsze dziecko' },
+  { id: 4, price: '£0 za pierwsze dziecko' },
 ];
 
 const fourSaturdays = '4 Soboty';

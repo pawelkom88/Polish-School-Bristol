@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Icon from '../../icons/Icon';
+import Icon from '@components/icons/Icon';
 import { useState } from 'react';
 
 export default function StaffCard({ teacherInfo }) {

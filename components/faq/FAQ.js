@@ -1,13 +1,13 @@
 import React from 'react';
-import FaqAnswer from '../faq-answer/FaqAnswer';
+import FaqAnswer from '@components/faq-answer/FaqAnswer';
 import Link from 'next/link';
-import Fees from '../fees/Fees';
-import FeesDescription from '../fees/fees-description/FeesDescription';
-import FeesInfo from '../fees/fees-info/FeesInfo';
-import TableMobile from '../table/TableMobile';
-import TableDesktop from '../table/TableDesktop';
-import { bedminister, oasis } from '../../utils/utils';
-import SchoolFees from '../fees/school-fees/SchoolFees';
+import Fees from '@components/fees/Fees';
+import FeesDescription from '@components/fees/fees-description/FeesDescription';
+import FeesInfo from '@components/fees/fees-info/FeesInfo';
+import TableMobile from '@components/table/TableMobile';
+import TableDesktop from '@components/table/TableDesktop';
+import { bedminister, oasis } from '@utils/utils';
+import SchoolFees from '@components/fees/school-fees/SchoolFees';
 
 export default function FAQ({ data }) {
   return (
@@ -42,11 +42,9 @@ export default function FAQ({ data }) {
             Poznaj naszą kadrę
           </Link>
         </FaqAnswer>
-
         <hr className="my-8 border-gray-700" />
-
         <FaqAnswer title="Płatności">
-          <Fees schoolName={data.id} />
+          <Fees schoolName={data.name} />
           <FeesDescription />
           <SchoolFees schoolName={data.name} />
           <p className="py-4">
@@ -58,7 +56,6 @@ export default function FAQ({ data }) {
           <br />
           <FeesInfo />
         </FaqAnswer>
-
         <hr className="my-8  border-gray-700" />
         <FaqAnswer title="Wydarzenia">
           <a

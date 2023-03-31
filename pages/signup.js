@@ -1,6 +1,6 @@
-import Form from '../components/form/Form';
-import Icon from '../components/icons/Icon';
-import Layout from '../components/layout/Layout';
+import Form from '@components/form/Form';
+import Icon from '@components/icons/Icon';
+import Layout from '@components/layout/Layout';
 
 export default function Signup() {
   return (

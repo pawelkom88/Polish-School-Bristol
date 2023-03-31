@@ -1,5 +1,5 @@
-import TableHeading from '../table/table-heading/TableHeading';
-import TableData from '../table/table-data/TableData';
+import TableHeading from '@components/table/table-heading/TableHeading';
+import TableData from '@components/table/table-data/TableData';
 
 export default function TableMobile({}) {
   return (

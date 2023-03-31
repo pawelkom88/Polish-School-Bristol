@@ -1,6 +1,6 @@
-import { feesHolyCross } from '../../../data/data';
-import TableHeading from '../../table/table-heading/TableHeading';
-import TableData from '../../table/table-data/TableData';
+import { feesHolyCross } from '@data/data';
+import TableHeading from '@components/table/table-heading/TableHeading';
+import TableData from '@components/table/table-data/TableData';
 
 export default function SchoolFees({ schoolName }) {
   return (

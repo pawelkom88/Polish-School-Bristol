@@ -1,8 +1,8 @@
-import Navigation from '../components/navigation/Navigation';
-import Footer from '../components/footer/Footer';
+import Navigation from '@components/navigation/Navigation';
+import Footer from '@components/footer/Footer';
 import { NextSeo } from 'next-seo';
 import { favicon } from '../seo.config';
-import { schoolData } from '../data/data.js';
+import { schoolData } from '@data/data.js';
 import '@fontsource/questrial';
 import './styles/globals.css';
 

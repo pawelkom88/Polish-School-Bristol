@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 
 export default function Card({ card }) {
   return (
@@ -16,7 +15,6 @@ export default function Card({ card }) {
           alt="icon"
         />
       </div>
-
       <h3 className="text-lg text-center my-2">{card.title}</h3>
     </div>
   );

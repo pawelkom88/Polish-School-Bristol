@@ -1,5 +1,5 @@
-import TableHeading from '../table/table-heading/TableHeading';
-import TableData from '../table/table-data/TableData';
+import TableHeading from '@components/table/table-heading/TableHeading';
+import TableData from '@components/table/table-data/TableData';
 export default function TableDesktop({}) {
   return (
     <table className="hidden md:inline-block border-l text-center text-sm font-light dark:border-neutral-500 mx-auto text-black">

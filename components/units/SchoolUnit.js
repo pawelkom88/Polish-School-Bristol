@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import SchoolCard from '../card/SchoolCard';
-import { schoolData } from '../../data/data.js';
+import SchoolCard from '@components/card/SchoolCard';
+import { schoolData } from '@data/data.js';
 
 export default function SchoolUnit() {
   return (
