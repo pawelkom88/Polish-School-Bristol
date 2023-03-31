@@ -63,3 +63,8 @@ export const feesHolyCross = [
   { id: 10, paymentDate: '11 czerwca 2023', period: fourSaturdays },
   { id: 11, paymentDate: '2 lipca 2023', period: twoSaturdays },
 ];
+
+
+export const staffOasis = {}
+
+export const staffBedminister = {}

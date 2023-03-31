@@ -1,10 +1,9 @@
-
 import Image from 'next/image';
 
 export default function Form({}) {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 justify-center item-start gap-4 xl:gap-8">
-      <div className="lg:min-h-[30rem] lg:mt-24">
+      <div className="lg:mt-24">
         <a
           className="block hover:-translate-y-2 hover:scale-110 transition-transform duration-500"
           href=""

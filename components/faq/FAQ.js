@@ -37,13 +37,13 @@ export default function FAQ({ data }) {
           <br />
           <Link
             href={`/staff/${data.name}`}
-            className={`${data.id === 'Bedminister' ? bedminister : oasis}`}
+            className={`${data.name !== 'Oasis' ? bedminister : oasis}`}
           >
             Poznaj naszą kadrę
           </Link>
         </FaqAnswer>
 
-        <hr className="my-8  border-gray-700" />
+        <hr className="my-8 border-gray-700" />
 
         <FaqAnswer title="Płatności">
           <Fees schoolName={data.id} />
