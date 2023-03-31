@@ -1,8 +1,7 @@
 export const schoolData = [
   {
-    id: 'Bedminister',
-    name: 'Holy Cross (Bedminster)',
-    link: 'bedminister',
+    id: 0,
+    name: 'Bedminster',
     location: {
       address: 'Holy Cross Primary School, Dean Ln, Bedminster, BS3 1DB',
       lat: 51.44317,
@@ -12,11 +11,12 @@ export const schoolData = [
     socialMedia: 'https://www.facebook.com/PolskaSzkolaJezykaiKulturyHolyCross',
     topBarClass: 'bg-btn1-clr',
     cardIcon: '/logo-holy-cross.webp',
+    tel: 'TEL_BEDMINISTER',
+    mail: 'MAIL_BEDMINISTER',
   },
   {
-    id: 'Lawrence Weston',
-    name: 'Oasis Academy Bank Leaze (Lawrence Weston)',
-    link: 'oasis',
+    id: 1,
+    name: 'Oasis',
     location: {
       address: 'Oasis Academy Bank Leaze, Corbet Close, BS11 0SN',
       lat: 51.50663,
@@ -26,6 +26,8 @@ export const schoolData = [
     socialMedia: 'https://www.facebook.com/PolishSchoolBristol',
     topBarClass: 'bg-btn2-clr',
     cardIcon: '/logo-oasis.webp',
+    tel: 'TEL_OASIS',
+    mail: 'TEL_OASIS',
   },
 ];
 

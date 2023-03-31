@@ -26,9 +26,9 @@ const iconOpen = (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
       d="M20 12H4"
     ></path>
   </svg>
@@ -46,7 +46,7 @@ export default function FaqAnswer({ title, children }) {
       {open && (
         <div className="w-full flex mt-8 md:mx-10">
           <span className="border border-red-600"></span>
-          <p className="max-w-4xl pl-4 text-white">{children}</p>
+          <div className="max-w-4xl pl-4 text-white">{children}</div>
         </div>
       )}
     </>

@@ -1,9 +1,14 @@
 import Image from 'next/image';
 
-export default function Details({ data, contact }) {
-  const { id, name, location, content, socialMedia, topBarClass } = data;
+export default function Details({ data }) {
+  const contact = {
+    eMail: process.env.NEXT_PUBLIC_MAIL_BEDMINISTER,
+    tel: process.env.NEXT_PUBLIC_TEL_BEDMINISTER,
+  };
 
-  const bgClr = id === 'Bedminister' ? 'bg-bg2-clr' : 'bg-bg1-clr';
+  const { name, location, socialMedia, topBarClass } = data;
+
+  const bgClr = name !== 'Oasis' ? 'bg-bg2-clr' : 'bg-bg1-clr';
 
   return (
     <div className={`${topBarClass} overflow-hidden border-2`}>
@@ -54,12 +59,12 @@ export default function Details({ data, contact }) {
               </a>
             </dd>
           </div>
-          <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          {/* <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt className="text-lg font-medium text-gray-900">Info:</dt>
             <dd className="mt-1 text-lg text-gray-900 sm:col-span-2 sm:mt-0">
               {content}
             </dd>
-          </div>
+          </div> */}
         </dl>
       </div>
     </div>

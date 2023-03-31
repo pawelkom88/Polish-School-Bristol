@@ -8,11 +8,10 @@ import TableMobile from '../table/TableMobile';
 import TableDesktop from '../table/TableDesktop';
 import { bedminister, oasis } from '../../utils/utils';
 import SchoolFees from '../fees/school-fees/SchoolFees';
-import { EmbedPDF } from "@simplepdf/react-embed-pdf";
 
 export default function FAQ({ data }) {
   return (
-    <section className="min-h-[80vh] flex justify-center items-center bg-gray-900">
+    <section className="min-h-[60vh] flex justify-center items-center bg-gray-900">
       <div className="container px-6 py-10 mx-auto">
         <h4 className="text-4xl font-semibold text-white">
           Pytania i odpowiedzi
@@ -37,7 +36,7 @@ export default function FAQ({ data }) {
           </p>
           <br />
           <Link
-            href="/"
+            href={`/staff/${data.name}`}
             className={`${data.id === 'Bedminister' ? bedminister : oasis}`}
           >
             Poznaj naszą kadrę
@@ -62,18 +61,16 @@ export default function FAQ({ data }) {
 
         <hr className="my-8  border-gray-700" />
         <FaqAnswer title="Wydarzenia">
-          
-
-<EmbedPDF>
-  <a href={data.id === 'Bedminister'
-            ? 'files/KalendarzOasis.pdf'
-            : '/files/KalendarzHolyCross.pdf'}>
-    Opens dummy.pdf
-  </a>
-</EmbedPDF>
+          <a
+            href={
+              data.id === 'Bedminister'
+                ? process.env.NEXT_PUBLIC_CALENDAR_OASIS
+                : process.env.NEXT_PUBLIC_CALENDAR_BEDMINISTER
+            }
+          >
+            Pobierz kalendarz w formacie PDF
+          </a>
         </FaqAnswer>
-
-        {/* <hr className="my-8  border-gray-700" /> */}
       </div>
     </section>
   );

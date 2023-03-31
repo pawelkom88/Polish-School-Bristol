@@ -28,8 +28,13 @@ export default function SchoolUnit() {
         </div>
       </div>
       <div className="relative w-full grid  md:grid-flow-col auto-cols-fr gap-5 px-2">
-        {schoolData.map((data) => {
-          return <SchoolCard key={data.id} data={data} />;
+        {schoolData.map((school) => {
+          return (
+            <SchoolCard
+              key={school.id}
+              data={school.name !== 'Oasis' ? schoolData[0] : schoolData[1]}
+            />
+          );
         })}
       </div>
     </section>

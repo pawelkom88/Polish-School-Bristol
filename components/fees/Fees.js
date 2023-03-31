@@ -1,8 +1,6 @@
-import TableHeading from '../table-heading/TableHeading';
+import TableHeading from '../table/table-heading/TableHeading';
 
 export default function Fees({ schoolName }) {
-
-
   return (
     <section className="w-full mb-4">
       <p className="text-xl font-bold py-4">
@@ -14,7 +12,7 @@ export default function Fees({ schoolName }) {
           <tr className="flex flex-col gap-2">
             <TableHeading
               styles={`${
-                schoolName === 'Bedminister' ? 'bg-btn1-clr' : 'bg-btn2-clr'
+                schoolName !== 'Oasis' ? 'bg-btn1-clr' : 'bg-btn2-clr'
               } border-b text-lg`}
             >
               Opłata za jedną sobotę

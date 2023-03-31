@@ -8,7 +8,6 @@ export default function WhyUs() {
         Dlaczego my ?
       </h2>
       <div className="max-w-7xl grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mx-4">
-        {/* <div className="max-w-7xl flex-wrap flex gap-8"> */}
         {cardData.map((card) => {
           return <Card key={card.id} card={card} />;
         })}

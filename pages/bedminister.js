@@ -3,11 +3,13 @@ import Map from '../components/map/Map';
 import Details from '../components/details/Details';
 
 export default function Bedminister({ data }) {
+
+  
   const contact = {
     eMail: process.env.NEXT_PUBLIC_MAIL_BEDMINISTER,
     tel: process.env.NEXT_PUBLIC_TEL_BEDMINISTER,
   };
-console.log(data)
+
   return (
     <>
       <main>
