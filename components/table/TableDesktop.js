@@ -2,7 +2,7 @@ import TableHeading from '../table-heading/TableHeading';
 import TableData from '../table-data/TableData';
 export default function TableDesktop({}) {
   return (
-    <table className="hidden md:inline-block border-l text-center text-sm font-light dark:border-neutral-500 mx-auto">
+    <table className="hidden md:inline-block border-l text-center text-sm font-light dark:border-neutral-500 mx-auto text-black">
       <thead className="border-t border-r border-b font-medium dark:border-neutral-500">
         <TableHeading styles="bg-gray-100">Payee Name</TableHeading>
         <TableHeading styles="bg-gray-100">Sort Code</TableHeading>

@@ -1,16 +1,22 @@
 import TableHeading from '../table-heading/TableHeading';
 
-export default function Fees() {
+export default function Fees({ schoolName }) {
+
+
   return (
-    <section className="w-full mb-4 lg:basis-1/2">
-      <p className="text-xl text-center font-bold py-4">
+    <section className="w-full mb-4">
+      <p className="text-xl font-bold py-4">
         Czesne na rok szkolny 2022/2023 wynosi:
       </p>
-      <table className="sm:w-2/3 w-full border text-center text-sm font-light dark:border-neutral-500 m-auto">
+      <table className="w-1/2 border text-md font-light dark:border-neutral-500 my-4">
         <thead>
           {/* MAP !!!! */}
           <tr className="flex flex-col gap-2">
-            <TableHeading styles="bg-gray-100 border-b text-lg">
+            <TableHeading
+              styles={`${
+                schoolName === 'Bedminister' ? 'bg-btn1-clr' : 'bg-btn2-clr'
+              } border-b text-lg`}
+            >
               Opłata za jedną sobotę
             </TableHeading>
             <TableHeading styles="border-b font-light">

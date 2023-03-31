@@ -1,6 +1,6 @@
 export default function FeesDescription({}) {
   return (
-    <div className="xl:px-8 text-lg text-center my-4">
+    <div className="text-lg my-4">
       <p>
         Przy zapisie dziecka należy uiścić jednorazową opłatę wpisową w
         wysokości <span className="font-bold">£15</span> na pokrycie kosztów

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
 const iconClosed = (
   <svg
@@ -15,7 +15,7 @@ const iconClosed = (
       d="M12 4v16m8-8H4"
     />
   </svg>
-)
+);
 
 const iconOpen = (
   <svg
@@ -32,28 +32,23 @@ const iconOpen = (
       d="M20 12H4"
     ></path>
   </svg>
-)
+);
 
 export default function FaqAnswer({ title, children }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   return (
-    <div>
-      <button
-        onClick={() => setOpen(!open)}
-        className="flex items-center focus:outline-none"
-      >
+    <>
+      <button onClick={() => setOpen(!open)} className="flex items-center">
         {open ? iconOpen : iconClosed}
         <h4 className="mx-4 text-xl text-white">{title}</h4>
       </button>
       {open && (
-        <div className="flex mt-8 md:mx-10">
+        <div className="w-full flex mt-8 md:mx-10">
           <span className="border border-red-600"></span>
-          <p className="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
-            {children}
-          </p>
+          <p className="max-w-4xl pl-4 text-white">{children}</p>
         </div>
       )}
-    </div>
-  )
+    </>
+  );
 }

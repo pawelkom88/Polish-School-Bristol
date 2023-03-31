@@ -2,11 +2,13 @@ import { feesHolyCross } from '../../../data/data';
 import TableHeading from '../../table-heading/TableHeading';
 import TableData from '../../table-data/TableData';
 
-export default function HolyCrossFees() {
+export default function SchoolFees({ schoolName }) {
   return (
-    <div className="flex flex-col justify-start items-center">
-      <p className="text-xl py-4 text-center text-[var(--btn1-clr)] font-bold">Holy Cross (Bedminster)</p>
-      <table className="border text-center text-sm font-light dark:border-neutral-500">
+    <div className="flex flex-col justify-center items-start">
+      <p className="text-xl py-4 text-center text-white font-bold">
+        {schoolName}
+      </p>
+      <table className="border text-center text-sm text-black font-light dark:border-neutral-500">
         <thead className="border-b font-medium dark:border-neutral-500">
           <TableHeading styles="bg-gray-100">#</TableHeading>
           <TableHeading styles="bg-gray-100"> Termin Platności</TableHeading>
