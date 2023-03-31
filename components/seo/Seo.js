@@ -22,14 +22,14 @@ export default function Seo({ seo = defaultSEO }) {
         description: `${seo.description}`,
         images: [
           {
-            url: 'https://github.com/pawelkom88/Polish-School-Bristol/blob/main/public/social-media-card.png?raw=true',
+            url: 'https://raw.githubusercontent.com/pawelkom88/Polish-School-Bristol/main/public/social-media-card.png',
             width: 800,
             height: 600,
             alt: 'Polska Szkoła Języka i Kultury w Bristolu',
             type: 'image/webp',
           },
           {
-            url: 'https://github.com/pawelkom88/Polish-School-Bristol/blob/main/public/social-media-card.png?raw=true',
+            url: 'https://raw.githubusercontent.com/pawelkom88/Polish-School-Bristol/main/public/social-media-card.png',
             width: 900,
             height: 800,
             alt: 'Polska Szkoła Języka i Kultury w Bristolu',
