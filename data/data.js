@@ -64,7 +64,14 @@ export const feesHolyCross = [
   { id: 11, paymentDate: '2 lipca 2023', period: twoSaturdays },
 ];
 
+export const staffOasis = [
+  {
+    id: 1,
+    name: 'Patrycja Sikorska',
+    desc: 'Patrycja .......',
+    role: 'Head Teacher',
+    photo: '/staff/teacher-Patrycja Sikorska.jpg',
+  },
+];
 
-export const staffOasis = {}
-
-export const staffBedminister = {}
+export const staffBedminister = [{ id: 1, name: '', desc: '', photo: '' }];

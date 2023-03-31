@@ -17,7 +17,6 @@ export default function Signup() {
           />
         </div>
       </div>
-
       <Form />
     </Layout>
   );
