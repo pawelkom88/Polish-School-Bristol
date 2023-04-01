@@ -5,7 +5,8 @@ export const schoolData = [
       canonical: 'school/Bedminster',
       url: 'school/Bedminster',
       title: 'Polska Szkoła Języka i Kultury Holy Cross Bedminster',
-      description: 'Holy Cross Primary School, Dean Ln, Bedminster, BS3 1DB, Bristol, United Kingdom',
+      description:
+        'Holy Cross Primary School, Dean Ln, Bedminster, BS3 1DB, Bristol, United Kingdom',
     },
     name: 'Bedminster',
     location: {
@@ -26,7 +27,8 @@ export const schoolData = [
       canonical: 'school/Oasis',
       url: 'school/Oasis',
       title: 'Polska Szkoła Języka i Kultury w Oasis Academy Bank Leaze',
-      description: 'Polska Szkoła Języka i Kultury działająca w soboty w godzinach 9:00 - 13:00 w Bristol Oasis Acadademy',
+      description:
+        'Polska Szkoła Języka i Kultury działająca w soboty w godzinach 9:00 - 13:00 w Bristol Oasis Acadademy',
     },
     name: 'Oasis',
     location: {
@@ -45,9 +47,9 @@ export const schoolData = [
 
 export const generalFees = [
   { id: 1, price: '£14 za pierwsze dziecko' },
-  { id: 2, price: '£10 za pierwsze dziecko' },
-  { id: 3, price: '£7 za pierwsze dziecko' },
-  { id: 4, price: '£0 za pierwsze dziecko' },
+  { id: 2, price: '£10 za drugie dziecko' },
+  { id: 3, price: '£7 za trzecie dziecko' },
+  { id: 4, price: '£0 za czwarte dziecko' },
 ];
 
 const fourSaturdays = '4 Soboty';

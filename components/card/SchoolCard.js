@@ -1,10 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { bedminister, oasis } from '../../utils/utils';
 
 export default function SchoolCard({ data }) {
-
-const schoolName = data.name !== 'Oasis'
+  const schoolName = data.name !== 'Oasis';
 
   return (
     <div
@@ -20,9 +18,7 @@ const schoolName = data.name !== 'Oasis'
           height={180}
           alt="Icon"
         />
-        <div
-          className={`${schoolName ? 'tape' : 'tape2'} mb-2`}
-        ></div>
+        <div className={`${schoolName ? 'tape' : 'tape2'} mb-2`}></div>
         <div className="w-full flex items-center justify-center">
           <div className="flex flex-col items-center">
             <p className="text-2xl">{data.name}</p>
@@ -31,7 +27,7 @@ const schoolName = data.name !== 'Oasis'
             </p>
             <Link
               href={`/school/${data.name}`}
-              className={`${schoolName ? bedminister : oasis}`}
+              className={`${schoolName ? 'btn-green' : 'btn-blue'}`}
             >
               więcej
             </Link>

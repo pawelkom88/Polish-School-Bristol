@@ -6,7 +6,6 @@ import FeesDescription from '@components/fees/fees-description/FeesDescription';
 import FeesInfo from '@components/fees/fees-info/FeesInfo';
 import TableMobile from '@components/table/TableMobile';
 import TableDesktop from '@components/table/TableDesktop';
-import { bedminister, oasis } from '@utils/utils';
 import SchoolFees from '@components/fees/school-fees/SchoolFees';
 
 export default function FAQ({ data }) {
@@ -17,7 +16,6 @@ export default function FAQ({ data }) {
           Pytania i odpowiedzi
         </h4>
         <hr className="my-6 border-gray-700" />
-        {/* // map */}
         <FaqAnswer title="Nasza Załoga">
           <p>
             Nasi nauczyciele posiadają wykształcenie i doświadczenie w nauczania
@@ -37,7 +35,7 @@ export default function FAQ({ data }) {
           <br />
           <Link
             href={`/staff/${data.name}`}
-            className={`${data.name !== 'Oasis' ? bedminister : oasis}`}
+            className={`${data.name !== 'Oasis' ? 'btn-green' : 'btn-blue'}`}
           >
             Poznaj naszą kadrę
           </Link>

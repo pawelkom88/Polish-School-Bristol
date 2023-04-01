@@ -1,8 +1,10 @@
-import { feesHolyCross } from '@data/data';
+import { feesHolyCross, feesOasis } from '@data/data';
 import TableHeading from '@components/table/table-heading/TableHeading';
 import TableData from '@components/table/table-data/TableData';
 
 export default function SchoolFees({ schoolName }) {
+  const fees = schoolName !== 'Oasis' ? feesHolyCross : feesOasis;
+
   return (
     <div className="flex flex-col justify-center items-start">
       <p className="text-xl py-4 text-center text-white font-bold">
@@ -17,7 +19,7 @@ export default function SchoolFees({ schoolName }) {
           </TableHeading>
         </thead>
         <tbody>
-          {feesHolyCross.map(({ id, paymentDate, period }) => {
+          {fees.map(({ id, paymentDate, period }) => {
             return (
               <tr key={id} className="border-b dark:border-neutral-500">
                 <TableData>{id}</TableData>

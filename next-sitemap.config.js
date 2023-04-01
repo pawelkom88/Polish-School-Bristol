@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: process.env.SITE_URL || 'https://joe-doe-photography.netlify.app/',
+    siteUrl: process.env.SITE_URL || 'http://polishschoolbristol.com/',
     generateRobotsTxt: true, // (optional)
     // ...other options
   }
