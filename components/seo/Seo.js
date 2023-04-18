@@ -2,8 +2,8 @@ import { NextSeo } from 'next-seo';
 import { favicon } from '../../seo.config';
 
 const defaultSEO = {
-  canonical: '',
-  url: '',
+  canonical: 'https://polishschoolbristol.com/',
+  url: 'https://polishschoolbristol.com/',
   title: 'Polska Szkoła Języka i Kultury w Bristolu',
   description:
     'Naszą misją jest, aby uczniowie poznali i pielęgnowali polskie tradycje i obyczaje, stając się ambasadorami kultury polskiej na świecie.',
