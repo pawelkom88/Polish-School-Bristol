@@ -18,7 +18,7 @@ export default function FAQ({ data }) {
         <h4 className="text-4xl font-semibol">Informacje</h4>
         <hr className="my-6 border-gray-700" />
         <FaqAnswer mainColor={mainColor} title="Nasza Załoga">
-          <p>
+          <p className="text-lg">
             Nasi nauczyciele posiadają wykształcenie i doświadczenie w nauczania
             i pracy dziećmi polonijnymi. Szkoła zapewnia wszystkim nauczycielom
             oraz asystentom kursy i szkolenia zawodowe, rozwijające umiejętności
@@ -58,6 +58,7 @@ export default function FAQ({ data }) {
         <hr className="my-8 border-gray-700" />
         <FaqAnswer mainColor={mainColor} title="Wydarzenia">
           <a
+          className='font-bold'
             href={
               data.id === 'Bedminister'
                 ? process.env.NEXT_PUBLIC_CALENDAR_OASIS

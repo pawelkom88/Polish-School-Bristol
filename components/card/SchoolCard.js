@@ -22,7 +22,7 @@ export default function SchoolCard({ data }) {
         <div className="w-full flex items-center justify-center">
           <div className="flex flex-col items-center">
             <p className="text-2xl">{data.name}</p>
-            <p className="my-4 text-xs sm:text-sm md:text-base font-semibold text-center">
+            <p className="my-4 text-xs sm:text-sm md:text-lg font-semibold text-center">
               {data.location.address}
             </p>
             <Link

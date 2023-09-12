@@ -18,7 +18,7 @@ const tableData = [
 
 export default function TableDesktop() {
   return (
-    <table className="hidden md:inline-block border-l text-center text-sm font-light dark:border-neutral-500 mx-auto text-black">
+    <table className="hidden md:inline-block border-l text-center font-light dark:border-neutral-500 mx-auto text-black">
       <thead className="border-t border-r border-b font-medium dark:border-neutral-500">
         <tr>
           {headingData.map((heading, index) => (

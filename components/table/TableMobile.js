@@ -4,7 +4,7 @@ import TableData from '@components/table/table-data/TableData';
 export default function TableMobile({}) {
   return (
     <>
-      <table className="w-full md:hidden border-l text-black  text-center text-sm font-light dark:border-neutral-500 mx-auto">
+      <table className="w-full md:hidden border-l text-black  text-center font-light dark:border-neutral-500 mx-auto">
         <thead className="border-t border-r border-b font-medium dark:border-neutral-500">
           <TableHeading styles="bg-gray-100">Payee Name</TableHeading>
         </thead>
@@ -15,7 +15,7 @@ export default function TableMobile({}) {
         </tbody>
       </table>
 
-      <table className="w-full md:hidden border-l text-black  text-center text-sm font-light dark:border-neutral-500 mx-auto my-2">
+      <table className="w-full md:hidden border-l text-black  text-center font-light dark:border-neutral-500 mx-auto my-2">
         <thead className="border-t border-r border-b font-medium dark:border-neutral-500">
           <TableHeading styles="bg-gray-100">Sort Code</TableHeading>
         </thead>
@@ -26,7 +26,7 @@ export default function TableMobile({}) {
         </tbody>
       </table>
 
-      <table className="w-full md:hidden border-l text-black  text-center text-sm font-light dark:border-neutral-500 mx-auto my-2">
+      <table className="w-full md:hidden border-l text-black  text-center font-light dark:border-neutral-500 mx-auto my-2">
         <thead className="border-t border-r border-b font-medium dark:border-neutral-500">
           <TableHeading styles="bg-gray-100">Account Number</TableHeading>
         </thead>
@@ -37,7 +37,7 @@ export default function TableMobile({}) {
         </tbody>
       </table>
 
-      <table className="w-full md:hidden border-l text-black  text-center text-sm font-light dark:border-neutral-500 mx-auto my-2">
+      <table className="w-full md:hidden border-l text-black  text-center font-light dark:border-neutral-500 mx-auto my-2">
         <thead className="border-t border-r border-b font-medium dark:border-neutral-500">
           <TableHeading styles="bg-gray-100">Payment Reference</TableHeading>
         </thead>

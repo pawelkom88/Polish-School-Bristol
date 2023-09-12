@@ -9,7 +9,7 @@ export default function Fees({ schoolName }) {
       <p className="text-xl font-bold py-4">
         Czesne na rok szkolny 2022/2023 wynosi:
       </p>
-      <table className="w-full bg-white text-gray-900 lg:w-1/2 border text-md font-light dark:border-neutral-500 my-4">
+      <table className="w-full bg-white text-gray-900 lg:w-1/2 border text-lg font-light dark:border-neutral-500 my-4">
         <thead>
           <tr className="flex flex-col gap-2">
             <TableHeading
