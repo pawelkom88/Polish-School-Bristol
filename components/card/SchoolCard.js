@@ -8,9 +8,9 @@ export default function SchoolCard({ data }) {
     <div
       className={`${
         schoolName ? 'bg-bg2-clr' : 'bg-bg1-clr'
-      } w-full flex items-center justify-center `}
+      } w-full flex items-center justify-center rounded-lg`}
     >
-      <div className="relative w-full h-full flex flex-col items-center py-6 px-4 rounded-lg border-2">
+      <div className="relative w-full h-full flex flex-col items-center py-6 px-4">
         <Image
           className="my-6"
           src={data.cardIcon}

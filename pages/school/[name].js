@@ -1,5 +1,4 @@
 import FAQ from '@components/faq/FAQ';
-import Map from '@components/map/Map';
 import Details from '@components/details/Details';
 import { useRouter } from 'next/router';
 import Seo from '@components/seo/Seo';
@@ -19,9 +18,9 @@ export default function School({ data }) {
               <main>
                 <article className="min-h-[50vh] max-w-7xl mx-auto md:mt-16 mt-4">
                   <Details data={school} />
-                  <Map location={school.location} />
+                  <br />
+                  <FAQ data={school} />
                 </article>
-                <FAQ data={school} />
               </main>
             </Fragment>
           );

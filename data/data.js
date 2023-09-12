@@ -46,43 +46,42 @@ export const schoolData = [
 ];
 
 export const generalFees = [
-  { id: 1, price: '£14 za pierwsze dziecko' },
-  { id: 2, price: '£10 za drugie dziecko' },
-  { id: 3, price: '£7 za trzecie dziecko' },
+  { id: 1, price: '£16 za pierwsze dziecko' },
+  { id: 2, price: '£12 za drugie dziecko' },
+  { id: 3, price: '£9 za trzecie dziecko' },
   { id: 4, price: '£0 za czwarte dziecko' },
 ];
 
 const fourSaturdays = '4 Soboty';
-
 const threeSaturdays = '3 Soboty';
-
 const twoSaturdays = '2 Soboty';
+const oneSaturday = '1 Sobota';
 
 export const feesOasis = [
-  { id: 1, paymentDate: '1 października 2022', period: fourSaturdays },
-  { id: 2, paymentDate: '6 listopada 2022', period: fourSaturdays },
-  { id: 3, paymentDate: '4 grudnia 2022', period: threeSaturdays },
-  { id: 4, paymentDate: '8 stycznia 2023  ', period: threeSaturdays },
-  { id: 5, paymentDate: '5 lutego 2023', period: threeSaturdays },
-  { id: 6, paymentDate: '5 marca 2023', period: fourSaturdays },
-  { id: 7, paymentDate: '2 kwietnia 2023', period: threeSaturdays },
-  { id: 8, paymentDate: '7 maja 2023', period: fourSaturdays },
-  { id: 9, paymentDate: '11 czerwca 2023', period: fourSaturdays },
-  { id: 10, paymentDate: '2 lipca 2023', period: threeSaturdays },
+  { id: 11, paymentDate: '30 września 2023', period: twoSaturdays },
+  { id: 12, paymentDate: '7 października 2023', period: threeSaturdays },
+  { id: 13, paymentDate: '4 listopada 2023', period: fourSaturdays },
+  { id: 14, paymentDate: '2 grudnia 2023', period: threeSaturdays },
+  { id: 15, paymentDate: '6 stycznia 2024', period: fourSaturdays },
+  { id: 16, paymentDate: '3 lutego 2024', period: threeSaturdays },
+  { id: 17, paymentDate: '2 marca 2024', period: fourSaturdays },
+  { id: 18, paymentDate: '20 kwietnia 2024', period: twoSaturdays },
+  { id: 19, paymentDate: '4 maja 2024', period: fourSaturdays },
+  { id: 20, paymentDate: '8 czerwca 2024', period: fourSaturdays },
 ];
 
 export const feesHolyCross = [
-  { id: 1, paymentDate: '17 września 2022', period: threeSaturdays },
-  { id: 2, paymentDate: '1 października 2022', period: fourSaturdays },
-  { id: 3, paymentDate: '6 listopada 2022', period: fourSaturdays },
-  { id: 4, paymentDate: '4 grudnia 2022  ', period: threeSaturdays },
-  { id: 5, paymentDate: '8 stycznia 2023', period: threeSaturdays },
-  { id: 6, paymentDate: '5 lutego 2023', period: threeSaturdays },
-  { id: 7, paymentDate: '5 marca 2023', period: fourSaturdays },
-  { id: 8, paymentDate: '2 kwietnia 2023', period: threeSaturdays },
-  { id: 9, paymentDate: '7 maja 2023', period: fourSaturdays },
-  { id: 10, paymentDate: '11 czerwca 2023', period: fourSaturdays },
-  { id: 11, paymentDate: '2 lipca 2023', period: twoSaturdays },
+  { id: 12, paymentDate: '23 września 2023', period: threeSaturdays },
+  { id: 13, paymentDate: '7 października 2023', period: threeSaturdays },
+  { id: 14, paymentDate: '4 listopada 2023', period: fourSaturdays },
+  { id: 15, paymentDate: '2 grudnia 2023', period: threeSaturdays },
+  { id: 16, paymentDate: '6 stycznia 2024', period: fourSaturdays },
+  { id: 17, paymentDate: '3 lutego 2024', period: threeSaturdays },
+  { id: 18, paymentDate: '2 marca 2024', period: fourSaturdays },
+  { id: 19, paymentDate: '20 kwietnia 2024', period: twoSaturdays },
+  { id: 20, paymentDate: '4 maja 2024', period: fourSaturdays },
+  { id: 21, paymentDate: '8 czerwca 2024', period: fourSaturdays },
+  { id: 22, paymentDate: '6 lipca 2024', period: oneSaturday },
 ];
 
 export const staffOasis = [

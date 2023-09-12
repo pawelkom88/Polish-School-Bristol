@@ -6,13 +6,13 @@ export default function Form({}) {
       <div className="lg:mt-24">
         <a
           className="block hover:-translate-y-2 hover:scale-110 transition-transform duration-500"
-          href=""
+          href="https://ps-bristol.netlify.app/files/formularzzgłoszeniowyPSJiK.pdf"
         >
           <Image
             className="mx-auto"
-            width={100}
-            height={200}
-            src="/icons/form.png"
+            width={70}
+            height={150}
+            src="/icons/form.svg"
             alt="form icon"
           />
         </a>
@@ -26,6 +26,18 @@ export default function Form({}) {
             </li>
             <li className="list-img">
               <span className="pl-2">Zapoznaj się z regulaminem szkoły</span>
+              <a
+                className="block hover:-translate-y-2 hover:scale-110 transition-transform duration-500"
+                href="https://ps-bristol.netlify.app/files/RegulaminPSJiK2023-2024.pdf"
+              >
+                <Image
+                  className="mx-auto my-8"
+                  width={70}
+                  height={150}
+                  src="/icons/award-certificate.svg"
+                  alt="statute icon"
+                />
+              </a>
             </li>
             <li className="list-img">
               <span className="pl-2">
@@ -42,7 +54,7 @@ export default function Form({}) {
                   }}
                   href="mailto:PolishSchoolBristol@gmail.com"
                 >
-                  PolishSchoolBristol@gmail.com
+                  PolishSchoolBristol@gmail.com (Holy Cross)
                 </a>{' '}
                 lub{' '}
                 <a
@@ -52,7 +64,7 @@ export default function Form({}) {
                   }}
                   href="mailto:PolishSchoolBristol2@gmail.com"
                 >
-                  PolishSchoolBristol2@gmail.com
+                  PolishSchoolBristol2@gmail.com (Oasis)
                 </a>{' '}
               </span>
             </li>

@@ -10,7 +10,7 @@ export default function SchoolFees({ schoolName }) {
       <p className="text-xl py-4 text-center text-white font-bold">
         {schoolName}
       </p>
-      <table className="w-full md:w-2/3 border text-center text-sm text-black font-light dark:border-neutral-500">
+      <table className="w-full md:w-2/3 border text-center dark:border-neutral-500">
         <thead className="border-b font-medium dark:border-neutral-500">
           <TableHeading styles="bg-gray-100">#</TableHeading>
           <TableHeading styles="bg-gray-100"> Termin Platności</TableHeading>

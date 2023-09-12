@@ -7,16 +7,17 @@ import FeesInfo from '@components/fees/fees-info/FeesInfo';
 import TableMobile from '@components/table/TableMobile';
 import TableDesktop from '@components/table/TableDesktop';
 import SchoolFees from '@components/fees/school-fees/SchoolFees';
+import Map from '@components/map/Map';
 
 export default function FAQ({ data }) {
+  const mainColor = data.name !== 'Oasis' ? 'green' : 'blue';
+
   return (
-    <section className="min-h-[60vh] flex justify-center items-center bg-gray-900">
+    <section className="min-h-[60vh] flex justify-center items-center border">
       <div className="container px-6 py-10 mx-auto">
-        <h4 className="text-4xl font-semibold text-white">
-          Pytania i odpowiedzi
-        </h4>
+        <h4 className="text-4xl font-semibol">Informacje</h4>
         <hr className="my-6 border-gray-700" />
-        <FaqAnswer title="Nasza Załoga">
+        <FaqAnswer mainColor={mainColor} title="Nasza Załoga">
           <p>
             Nasi nauczyciele posiadają wykształcenie i doświadczenie w nauczania
             i pracy dziećmi polonijnymi. Szkoła zapewnia wszystkim nauczycielom
@@ -41,7 +42,7 @@ export default function FAQ({ data }) {
           </Link>
         </FaqAnswer>
         <hr className="my-8 border-gray-700" />
-        <FaqAnswer title="Płatności">
+        <FaqAnswer mainColor={mainColor} title="Płatności">
           <Fees schoolName={data.name} />
           <FeesDescription />
           <SchoolFees schoolName={data.name} />
@@ -54,8 +55,8 @@ export default function FAQ({ data }) {
           <br />
           <FeesInfo />
         </FaqAnswer>
-        <hr className="my-8  border-gray-700" />
-        <FaqAnswer title="Wydarzenia">
+        <hr className="my-8 border-gray-700" />
+        <FaqAnswer mainColor={mainColor} title="Wydarzenia">
           <a
             href={
               data.id === 'Bedminister'
@@ -65,6 +66,11 @@ export default function FAQ({ data }) {
           >
             Pobierz kalendarz w formacie PDF
           </a>
+        </FaqAnswer>
+        <hr className="my-8 border-gray-700" />
+
+        <FaqAnswer mainColor={mainColor} title="Znajdź nas">
+          <Map location={data.location} />
         </FaqAnswer>
       </div>
     </section>

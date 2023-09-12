@@ -4,13 +4,13 @@
 
 :root {
   --bg-clr: #fff;
-  --bg1-clr: #eef5fe;
-  --bg2-clr: #e9efdd;
+  --bg1-clr: #d2e0f9;
+  --bg2-clr: #d1fec8;
   --text-clr: #212529;
   --btn1-clr: #3d992b;
   --btn2-clr: #5d90ee;
   --red-clr: #dc2626;
-  --orange-clr: #f4ae45;
+  --orange-clr: #8630b0;
 }
 
 @font-face {
