@@ -52,9 +52,9 @@ export default function Form({}) {
                     color: '#3d992b',
                     fontWeight: 'bold',
                   }}
-                  href="mailto:PolishSchoolBristol@gmail.com"
+                  href="mailto:PolishSchoolBristol2@gmail.com"
                 >
-                  PolishSchoolBristol@gmail.com (Holy Cross)
+                  PolishSchoolBristol2@gmail.com (Holy Cross)
                 </a>{' '}
                 lub{' '}
                 <a
@@ -62,9 +62,9 @@ export default function Form({}) {
                     color: '#5d90ee',
                     fontWeight: 'bold',
                   }}
-                  href="mailto:PolishSchoolBristol2@gmail.com"
+                  href="mailto:PolishSchoolBristol@gmail.com"
                 >
-                  PolishSchoolBristol2@gmail.com (Oasis)
+                  PolishSchoolBristol@gmail.com (Oasis)
                 </a>{' '}
               </span>
             </li>

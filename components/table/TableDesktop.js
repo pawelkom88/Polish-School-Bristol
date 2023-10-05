@@ -9,14 +9,22 @@ const headingData = [
   'Payment Reference',
 ];
 
-const tableData = [
+const tableDataOasis = [
   'Anders Army Polish School',
   '20-18-17',
   '63620956',
   'Imię i nazwisko dziecka\noraz numer miesiąca („Jan Kowalski 09”)',
 ];
 
-export default function TableDesktop() {
+const tableDataBedminister = [
+  'Anders Army Polish School',
+  '20-18-17',
+  '63493776',
+  'Imię i nazwisko dziecka\noraz numer miesiąca („Jan Kowalski 09”)',
+];
+
+export default function TableDesktop({ school }) {
+  const tableData = school === 'Oasis' ? tableDataOasis : tableDataBedminister;
   return (
     <table className="hidden md:inline-block border-l text-center font-light dark:border-neutral-500 mx-auto text-black">
       <thead className="border-t border-r border-b font-medium dark:border-neutral-500">
