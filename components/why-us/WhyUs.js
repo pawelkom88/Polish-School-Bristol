@@ -23,8 +23,8 @@ export default function WhyUs() {
         <p class="text-lg text-justify">
           Informujemy, że nasza szkoła otrzymała dofinansowanie przez Instytut
           Rozwoju Języka Polskiego im. Świętego Maksymiliana Marii Kolbego ze
-          środków Ministra Edukacji i Nauki w ramach konkursu "Wspieranie
-          Edukacji Polonijnej i Polskiej Poza Granicami Polski 2023”.
+          środków Ministra Edukacji i Nauki w ramach konkursu &quot;Wspieranie
+          Edukacji Polonijnej i Polskiej Poza Granicami Polski 2023&quot;.
         </p>
         <br />
         <p class="text-lg text-justify">
@@ -43,7 +43,7 @@ export default function WhyUs() {
         </ul>
         <br />
         <p class="text-lg">
-          Całkowita wartość przedsięwzięcia: <strong>811 400,00 PL</strong>N
+          Całkowita wartość przedsięwzięcia: <strong>811 400,00 PL</strong>N
         </p>
         <br />
         <p class="text-lg text-justify">
