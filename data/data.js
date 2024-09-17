@@ -45,30 +45,30 @@ const twoSaturdays = '2 Soboty';
 const oneSaturday = '1 Sobota';
 
 export const feesOasis = [
-  { id: 11, paymentDate: '28 września 2024', period: twoSaturdays },
-  { id: 12, paymentDate: '5 października 2024', period: fourSaturdays },
-  { id: 13, paymentDate: '9 listopada 2024', period: fourSaturdays },
-  { id: 14, paymentDate: '7 grudnia 2024', period: twoSaturdays },
-  { id: 15, paymentDate: '11 stycznia 2025', period: threeSaturdays },
-  { id: 16, paymentDate: '1 lutego 2025', period: threeSaturdays },
-  { id: 17, paymentDate: '1 marca 2025', period: fiveSaturdays },
-  { id: 18, paymentDate: '5 kwietnia 2025', period: twoSaturdays },
-  { id: 19, paymentDate: '3 maja 2025', period: fourSaturdays },
-  { id: 20, paymentDate: '7 czerwca 2025', period: fourSaturdays },
+  { id: 1, paymentDate: '28 września 2024', period: twoSaturdays },
+  { id: 2, paymentDate: '5 października 2024', period: fourSaturdays },
+  { id: 3, paymentDate: '9 listopada 2024', period: fourSaturdays },
+  { id: 4, paymentDate: '7 grudnia 2024', period: twoSaturdays },
+  { id: 5, paymentDate: '11 stycznia 2025', period: threeSaturdays },
+  { id: 6, paymentDate: '1 lutego 2025', period: threeSaturdays },
+  { id: 7, paymentDate: '1 marca 2025', period: fiveSaturdays },
+  { id: 8, paymentDate: '5 kwietnia 2025', period: twoSaturdays },
+  { id: 9, paymentDate: '3 maja 2025', period: fourSaturdays },
+  { id: 10, paymentDate: '7 czerwca 2025', period: fourSaturdays },
 ];
 
 export const feesHolyCross = [
-  { id: 11, paymentDate: '28 września 2024', period: twoSaturdays },
-  { id: 12, paymentDate: '5 października 2024', period: fourSaturdays },
-  { id: 13, paymentDate: '9 listopada 2024', period: fourSaturdays },
-  { id: 14, paymentDate: '7 grudnia 2024', period: twoSaturdays },
-  { id: 15, paymentDate: '11 stycznia 2025', period: threeSaturdays },
-  { id: 16, paymentDate: '1 lutego 2025', period: threeSaturdays },
-  { id: 17, paymentDate: '1 marca 2025', period: fiveSaturdays },
-  { id: 18, paymentDate: '5 kwietnia 2025', period: twoSaturdays },
-  { id: 19, paymentDate: '3 maja 2025', period: fourSaturdays },
-  { id: 20, paymentDate: '7 czerwca 2025', period: fourSaturdays },
-  { id: 21, paymentDate: '5 lipca 2025', period: oneSaturday },
+  { id: 1, paymentDate: '28 września 2024', period: twoSaturdays },
+  { id: 2, paymentDate: '5 października 2024', period: fourSaturdays },
+  { id: 3, paymentDate: '9 listopada 2024', period: fourSaturdays },
+  { id: 4, paymentDate: '7 grudnia 2024', period: twoSaturdays },
+  { id: 5, paymentDate: '11 stycznia 2025', period: threeSaturdays },
+  { id: 6, paymentDate: '1 lutego 2025', period: threeSaturdays },
+  { id: 7, paymentDate: '1 marca 2025', period: fiveSaturdays },
+  { id: 8, paymentDate: '5 kwietnia 2025', period: twoSaturdays },
+  { id: 9, paymentDate: '3 maja 2025', period: fourSaturdays },
+  { id: 10, paymentDate: '7 czerwca 2025', period: fourSaturdays },
+  { id: 11, paymentDate: '5 lipca 2025', period: oneSaturday },
 ];
 
 export const staffBedminister = [
