@@ -76,7 +76,7 @@ export const staffBedminister = [
     id: 1,
     name: 'Patrycja Sikorska',
     // desc: 'Patrycja .......',
-    role: 'Head Teacher',
+    role: 'Dyrektor',
     photo: '/staff/teacher-Patrycja Sikorska.jpg',
   },
   {
@@ -142,7 +142,7 @@ export const staffOasis = [
     id: 1,
     name: 'Patrycja Przygodzka',
     // desc: '',
-    role: 'Head Teacher',
+    role: 'Dyrektor',
     // photo: '/staff/teacher-Patrycja-Przygodzka.jpg',
   },
   {
