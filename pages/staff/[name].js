@@ -1,13 +1,13 @@
-import StaffCard from '@components/staff/staff-card/StaffCard';
 import Layout from '@components/layout/Layout';
+import StaffCard from '@components/staff/staff-card/StaffCard';
+import { staffBedminister, staffOasis } from '@data/data';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { staffOasis } from '@data/data';
 
 export default function School() {
   const router = useRouter();
 
-  console.log(router.query.name);
+  const staff = router.query.name === 'Oasis' ? staffOasis : staffBedminister;
 
   return (
     <Layout>
@@ -24,7 +24,7 @@ export default function School() {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center item-start gap-4 xl:gap-8">
-        {staffOasis.map((teacher) => {
+        {staff.map((teacher) => {
           return <StaffCard key={teacher.id} teacherInfo={teacher} />;
         })}
       </div>
