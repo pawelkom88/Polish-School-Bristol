@@ -50,7 +50,7 @@ export default function FAQ({ data }) {
             Dyrekcji Szkoły.
           </p>
           <TableDesktop school={data.name} />
-          <TableMobile />
+          <TableMobile school={data.name} />
           <br />
           <FeesInfo />
         </FaqAnswer>

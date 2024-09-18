@@ -1,26 +1,13 @@
-import TableHeading from '@components/table/table-heading/TableHeading';
 import TableData from '@components/table/table-data/TableData';
-import React from 'react';
+import TableHeading from '@components/table/table-heading/TableHeading';
+import { tableDataOasis } from '@data/data';
+import { tableDataBedminister } from '@data/data';
 
 const headingData = [
   'Payee Name',
   'Sort Code',
   'Account Number',
   'Payment Reference',
-];
-
-const tableDataOasis = [
-  'Anders Army Polish School',
-  '20-18-17',
-  '63620956',
-  'Imię i nazwisko dziecka\noraz numer miesiąca („Jan Kowalski 09”)',
-];
-
-const tableDataBedminister = [
-  'Anders Army Polish School',
-  '20-18-17',
-  '63493776',
-  'Imię i nazwisko dziecka\noraz numer miesiąca („Jan Kowalski 09”)',
 ];
 
 export default function TableDesktop({ school }) {

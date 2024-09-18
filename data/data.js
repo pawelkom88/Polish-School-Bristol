@@ -299,3 +299,18 @@ export const staffOasis = [
     // photo: '/staff/teacher-Barbara-Studzienna.jpg',
   },
 ];
+
+
+export const tableDataOasis = [
+  'Anders Army Polish School',
+  '20-18-17',
+  '63620956',
+  'Imię i nazwisko dziecka\noraz numer miesiąca („Jan Kowalski 09”)',
+];
+
+export const tableDataBedminister = [
+  'Anders Army Polish School',
+  '20-18-17',
+  '63493776',
+  'Imię i nazwisko dziecka\noraz numer miesiąca („Jan Kowalski 09”)',
+];

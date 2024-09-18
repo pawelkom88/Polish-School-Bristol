@@ -1,7 +1,11 @@
-import TableHeading from '@components/table/table-heading/TableHeading';
 import TableData from '@components/table/table-data/TableData';
+import TableHeading from '@components/table/table-heading/TableHeading';
+import { tableDataBedminister, tableDataOasis } from '@data/data';
 
-export default function TableMobile({}) {
+export default function TableMobile({ school }) {
+  const tableData = school === 'Oasis' ? tableDataOasis : tableDataBedminister;
+  const [schoolName, sortCode, accountNumber] = tableData;
+
   return (
     <>
       <table className="w-full md:hidden border-l text-black  text-center font-light dark:border-neutral-500 mx-auto">
@@ -10,7 +14,7 @@ export default function TableMobile({}) {
         </thead>
         <tbody>
           <tr className="border-b text-lg dark:border-neutral-500">
-            <TableData>Anders Army Polish School</TableData>
+            <TableData>{schoolName}</TableData>
           </tr>
         </tbody>
       </table>
@@ -21,7 +25,7 @@ export default function TableMobile({}) {
         </thead>
         <tbody>
           <tr className="border-b text-lg dark:border-neutral-500">
-            <TableData>20-18-17</TableData>
+            <TableData>{sortCode}</TableData>
           </tr>
         </tbody>
       </table>
@@ -32,7 +36,7 @@ export default function TableMobile({}) {
         </thead>
         <tbody>
           <tr className="border-b text-lg dark:border-neutral-500">
-            <TableData>63620956</TableData>
+            <TableData>{accountNumber}</TableData>
           </tr>
         </tbody>
       </table>
