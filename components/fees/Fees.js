@@ -7,7 +7,7 @@ export default function Fees({ schoolName }) {
   return (
     <section className="w-full mb-4">
       <p className="text-xl font-bold py-4">
-        Czesne na rok szkolny 2022/2023 wynosi:
+        Czesne na rok szkolny 2024/2025 wynosi:
       </p>
       <table className="w-full bg-white text-gray-900 lg:w-1/2 border text-lg font-light dark:border-neutral-500 my-4">
         <thead>

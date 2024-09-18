@@ -29,7 +29,7 @@ export default function SchoolCard({ data }) {
               href={`/school/${data.name}`}
               className={`${schoolName ? 'btn-green' : 'btn-blue'}`}
             >
-              więcej
+              Poznaj nas
             </Link>
           </div>
         </div>

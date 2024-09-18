@@ -80,10 +80,38 @@ export const staffBedminister = [
     photo: '/staff/teacher-Patrycja Sikorska.jpg',
   },
   {
+    id: 11,
+    name: 'Patrycja Przygodzka',
+    // desc: '',
+    role: 'Dyrektor',
+    // photo: '/staff/teacher-Patrycja-Przygodzka.jpg',
+  },
+  {
     id: 2,
-    name: 'Luiza Parol i Marta Jóźwiak oraz asystentki Monika Grabowska i Justyna Małek',
+    name: 'Luiza Parol',
     // desc: 'Brak podręcznika – Opłata £10 na poczet przyborów szkolnych i craftowych',
     role: 'Przedszkole',
+    // photo: '/staff/teacher-Luiza-Marta.jpg',
+  },
+  {
+    id: 22,
+    name: 'Marta Jóźwiak',
+    // desc: 'Brak podręcznika – Opłata £10 na poczet przyborów szkolnych i craftowych',
+    role: 'Przedszkole',
+    // photo: '/staff/teacher-Luiza-Marta.jpg',
+  },
+  {
+    id: 33,
+    name: 'Monika Grabowska',
+    // desc: 'Brak podręcznika – Opłata £10 na poczet przyborów szkolnych i craftowych',
+    role: 'Asystentka nauczyciela',
+    // photo: '/staff/teacher-Luiza-Marta.jpg',
+  },
+  {
+    id: 44,
+    name: 'Justyna Małek',
+    // desc: 'Brak podręcznika – Opłata £10 na poczet przyborów szkolnych i craftowych',
+    role: 'Asystentka nauczyciela',
     // photo: '/staff/teacher-Luiza-Marta.jpg',
   },
   {
@@ -146,6 +174,13 @@ export const staffOasis = [
     // photo: '/staff/teacher-Patrycja-Przygodzka.jpg',
   },
   {
+    id: 11,
+    name: 'Patrycja Sikorska',
+    // desc: 'Patrycja .......',
+    role: 'Dyrektor',
+    photo: '/staff/teacher-Patrycja Sikorska.jpg',
+  },
+  {
     id: 2,
     name: 'Krystyna Wójtowicz',
     // desc: '',
@@ -169,7 +204,14 @@ export const staffOasis = [
 
   {
     id: 5,
-    name: '1. Marzena Pluta (październik - grudzień) 2. Marzena Kalinowska (styczeń – czerwiec)',
+    name: 'Marzena Pluta',
+    // desc: '',
+    role: '1 - Klasa',
+    // photo: '/staff/teacher-Magdalena-Shad.jpg',
+  },
+  {
+    id: 56,
+    name: 'Marzena Kalinowska',
     // desc: '',
     role: '1 - Klasa',
     // photo: '/staff/teacher-Magdalena-Shad.jpg',
@@ -212,5 +254,48 @@ export const staffOasis = [
     // desc: '',
     role: 'Klasa GCSE',
     // photo: '/staff/teacher-Magdalena-Shad.jpg',
+  },
+  {
+    id: 11,
+    name: 'Magdalena Bednarska',
+    // desc: 'Klasa GCSE',
+    role: 'asystent nauczyciela',
+    // photo: '/staff/teacher-Barbara-Studzienna.jpg',
+  },
+  {
+    id: 12,
+    name: 'Weronika Buczyńska',
+    // desc: 'Klasa GCSE',
+    role: 'asystent nauczyciela',
+    // photo: '/staff/teacher-Barbara-Studzienna.jpg',
+  },
+  {
+    id: 13,
+    name: 'Urszula Wiśniewska',
+    // desc: 'Klasa GCSE',
+    role: 'asystent nauczyciela',
+    // photo: '/staff/teacher-Barbara-Studzienna.jpg',
+  },
+  {
+    id: 14,
+    name: 'Łukasz Płonka',
+    // desc: 'Klasa GCSE',
+    role: 'asystent nauczyciela',
+    // photo: '/staff/teacher-Barbara-Studzienna.jpg',
+  },
+  {
+    id: 15,
+    name: 'Dominika Kruszyńska',
+    // desc: 'Klasa GCSE',
+    role: 'asystent nauczyciela',
+    // photo: '/staff/teacher-Barbara-Studzienna.jpg',
+  },
+
+  {
+    id: 16,
+    name: 'Bartosz Kruszyński ',
+    // desc: 'Klasa GCSE',
+    role: 'asystent nauczyciela',
+    // photo: '/staff/teacher-Barbara-Studzienna.jpg',
   },
 ];

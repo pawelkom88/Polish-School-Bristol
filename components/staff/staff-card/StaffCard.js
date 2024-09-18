@@ -14,7 +14,7 @@ export default function StaffCard({ teacherInfo }) {
       className="group relative block h-96"
     >
       <span className="absolute inset-0 border-2 border-dashed border-black"></span>
-      {teacherInfo.role === 'Head Teacher' && (
+      {teacherInfo.role === 'Dyrektor' && (
         <Icon
           src="/icons/crown.svg"
           size={{ width: 85, height: 85 }}
