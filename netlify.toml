@@ -1,2 +1,0 @@
-[build]
-command = "npm install --platform=linux --arch=x64 sharp && npm run build"
