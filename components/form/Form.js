@@ -73,15 +73,12 @@ export default function Form({}) {
       </div>
       <div className="lg:basis-1/3">
         <Image
-          className="w-full"
-          src="/Graduation-bro.svg"
+          className="w-full rounded-xl"
+          src="/polska-szkola-usmiechniete-dziecko.webp"
           width={720}
           height={514}
           alt="School icon"
         />
-        <a className="hidden" href="https://storyset.com/education">
-          Education illustrations by Storyset
-        </a>
       </div>
     </section>
   );

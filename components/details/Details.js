@@ -39,6 +39,16 @@ export default function Details({ data }) {
               </a>
             }
           />
+          <ContactBlock
+            title="Ważne informacje"
+            content={
+           <ul>
+             <li>Telefon szkoły jest aktywny jedynie w dniu i godzinach zajęć.</li>
+             <li>Jeśli chcą Państwo się skontaktować z Dyrekcją, Managerem lub Wychowawcą w ciągu tygodnia, prosimy o kontakt drogą mailową.</li>
+             <li>W sobotę Dyrekcja oraz Manager Szkoły są do Państwa dyspozycji w budynku szkoły.</li>
+           </ul>
+            }
+          />
         </dl>
       </div>
     </div>

@@ -2,17 +2,30 @@ import React from 'react';
 
 export default function History() {
   return (
-    <p className="text-lg sm:text-center indent-3.5 text-justify">
-      Szkoła została założona w 2018 roku, aby wspierać licznie reprezentowaną
-      polską społeczność na południowo-zachodniej Anglii i w Walii. Pierwotnie
-      nasza szkoła działała w Newport pod nazwą &quot;Polska Szkoła im. Armii Andersa
-      w Newport CIC&quot;. Niestety pandemia COVID-19 zmusiła nas do przejścia na
-      nauczanie zdalne i ostatecznie przeniesienia szkoły do miasta Bristol.
-      Mimo trudności zdobyliśmy zaufanie uczniów, rodziców, lokalnych władz i
-      organizacji społecznych. Obecnie nasza szkoła funkcjonuje jako &quot;Polska
-      Szkoła Języka i Kultury&quot; z dwoma oddziałami w Holy Cross Catholic Primary
-      School i Oasis Academy Bank Leaze. Nasza społeczność szkolna liczy obecnie
-      blisko 250 osób!
-    </p>
+    <ul className="text-lg  text-pretty indent-3.5 text-justify space-y-2">
+      <li>
+        Polska Szkoła Języka i Kultury w Bristolu powstała z połączenia dwóch prężnie działających placówek edukacyjnych, które od lat wspierały polskie rodziny na południowym zachodzie Anglii i w Walii.
+      </li>
+
+      <li>
+        Nasze początki sięgają roku 2018, kiedy w Newport powstała Polska Szkoła im. Armii Andersa w Newport CIC. Jej celem było stworzenie miejsca, w którym dzieci i młodzież mogą nie tylko uczyć się języka polskiego, ale także poznawać historię i kulturę ojczystą oraz budować swoją tożsamość. Szkoła szybko zyskała ważne miejsce w sercach lokalnej społeczności. Gdy przyszła pandemia COVID-19, rozpoczęliśmy zajęcia w trybie zdalnym, a później przenieśliśmy się do Bristolu. Mimo wyzwań udało się zdobyć ogromne wsparcie uczniów, rodziców i lokalnych organizacji, co pozwoliło kontynuować rozwój.
+      </li>
+
+      <li>
+        Również w 2018 roku, tym razem w Bristolu, dzięki inicjatywie Marty Gancarek i Anny Unwin powstała Sobotnia Szkoła Języka i Kultury Polskiej im. Jana Pawła II. Od pierwszych dni była ona nie tylko miejscem nauki, lecz także spotkań i wspólnego celebrowania polskich tradycji. Podczas pandemii szkoła błyskawicznie przeniosła się do przestrzeni online, aby dalej wspierać uczniów i ich rodziny.
+      </li>
+
+      <li>
+        W roku 2021 obie szkoły połączyły swoje siły. Tak powstała Polska Szkoła Języka i Kultury w Bristolu – jeszcze silniejsza, bardziej zjednoczona i gotowa odpowiadać na potrzeby licznej polskiej społeczności w Bristolu i okolicach.
+      </li>
+
+      <li>
+        Dziś uczymy w dwóch lokalizacjach: Holy Cross Catholic Primary School oraz Oasis Academy Bank Leaze. Tworzymy społeczność blisko 300 osób – dzieci, rodziców, nauczycieli i przyjaciół szkoły. Łączy nas wspólna misja: nauka języka polskiego, pielęgnowanie tradycji i historii, a także budowanie dumy z polskich korzeni.
+      </li>
+
+      <li>
+        Naszą szkołę prowadzą dziś Patrycja Sikorska i Patrycja Przygodzka, a cała kadra wraz z rodzicami tworzy atmosferę, w której nauka idzie w parze z radością i poczuciem wspólnoty.
+      </li>
+    </ul>
   );
 }

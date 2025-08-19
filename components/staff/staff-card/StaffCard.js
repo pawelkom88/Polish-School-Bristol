@@ -27,13 +27,15 @@ export default function StaffCard({ teacherInfo }) {
         className={`${cardWidth} relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2`}
       >
         <div className="w-full h-full !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 ">
-          <Image
-            className="w-full h-[65%] object-cover"
-            src={teacherInfo.photo || placeholder}
-            width={300}
-            height={350}
-            alt={teacherInfo.name}
-          />
+          <div className="relative w-full h-[80%]">
+            <Image
+              src={teacherInfo.photo || placeholder}
+              alt={teacherInfo.name}
+              fill
+              sizes="(max-width: 640px) 100vw, 20rem"
+              className="object-cover object-top"
+            />
+          </div>
           <h2 className="mt-4 text-center text-xl font-medium">
             {teacherInfo.name}
           </h2>
@@ -42,13 +44,15 @@ export default function StaffCard({ teacherInfo }) {
         <div
           className={`${cardWidth} h-full absolute opacity-0 transition-opacity group-hover:relative group-hover:opacity-100`}
         >
-          <Image
-            className="w-full h-[65%] object-cover"
-            src={teacherInfo.photo || placeholder}
-            width={300}
-            height={350}
-            alt={teacherInfo.name}
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src={teacherInfo.photo2 || placeholder}
+              alt={teacherInfo.name}
+              fill
+              sizes="(max-width: 640px) 100vw, 20rem"
+              className="object-cover object-top"
+            />
+          </div>
           <p className="p-2 text-base">{teacherInfo.desc}</p>
         </div>
       </div>
