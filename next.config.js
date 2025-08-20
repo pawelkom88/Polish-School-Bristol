@@ -8,9 +8,6 @@ const withPWA = require('next-pwa')({
 
 const nextConfig = withPWA({
   reactStrictMode: true,
-  images: {
-    unoptimized: true,
-  },
 });
 
 module.exports = nextConfig;
