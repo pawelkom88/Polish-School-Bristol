@@ -189,7 +189,7 @@ export const staffOasis = [
     id: 2,
     name: 'Krystyna Wójtowicz',
     role: 'Młodsze Przedszkole',
-    photo: '/staff/KrystynaWójtowicz.jpg',
+    photo: '/staff/KrystynaWojtowicz.jpg',
   },
   {
     id: 11,

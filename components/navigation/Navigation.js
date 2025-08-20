@@ -14,7 +14,7 @@ export default function Navigation() {
           href="/documents"
           className="text-sm md:text-base bg-white text-primary border-2 border-orange-clr font-bold uppercase px-4 py-2 rounded-lg hover:text-white hover:bg-orange-clr hover:text-text-clr tracking-wider mr-2"
         >
-          Dokumenty dla rodziców
+          Dokumenty
         </Link>
         <Link
           href="/signup"
