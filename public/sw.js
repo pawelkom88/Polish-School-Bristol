@@ -1,1 +1,101 @@
-if(!self.define){let e,a={};const s=(s,i)=>(s=new URL(s+".js",i).href,a[s]||new Promise((a=>{if("document"in self){const e=document.createElement("script");e.src=s,e.onload=a,document.head.appendChild(e)}else e=s,importScripts(s),a()})).then((()=>{let e=a[s];if(!e)throw new Error(`Module ${s} didn’t register its module`);return e})));self.define=(i,c)=>{const r=e||("document"in self?document.currentScript.src:"")||location.href;if(a[r])return;let n={};const f=e=>s(e,r),o={module:{uri:r},exports:n,require:f};a[r]=Promise.all(i.map((e=>o[e]||f(e)))).then((e=>(c(...e),n)))}}define(["./workbox-bcb22894"],(function(e){"use strict";importScripts(),self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"/Cloud.svg",revision:"b41a4270bb0c5931bf580f182158b1c3"},{url:"/Graduation-bro.svg",revision:"206cd3b2ccb6daac0c3b000b727b8679"},{url:"/Highlight1.svg",revision:"c3b1bb089665ad5ff62586503ab6e911"},{url:"/Highlight2.svg",revision:"a8f925533f930b90277e766956590b47"},{url:"/Highlight3.svg",revision:"92b2d3d3bca9b968ea8a13b17c744948"},{url:"/Luckiest-Guy.ttf.eot",revision:"c793c469e123a5aa07bce820002c8342"},{url:"/Luckiest-Guy.ttf.svg",revision:"38a390dbe50b23889c6bb1f1385dc872"},{url:"/Luckiest-Guy.ttf.woff",revision:"d7aabd60fb12164c9dfd553cbab99504"},{url:"/Underline1.svg",revision:"de11abff5127abbe3348630cf7b9c54c"},{url:"/_next/static/chunks/7d0bf13e-5ad776eb7ad31c70.js",revision:"5ad776eb7ad31c70"},{url:"/_next/static/chunks/962-50a8fa7f75affeed.js",revision:"50a8fa7f75affeed"},{url:"/_next/static/chunks/framework-49c6cecf1f6d5795.js",revision:"49c6cecf1f6d5795"},{url:"/_next/static/chunks/main-a2965f40f463990f.js",revision:"a2965f40f463990f"},{url:"/_next/static/chunks/pages/_app-1770470e71febff7.js",revision:"1770470e71febff7"},{url:"/_next/static/chunks/pages/_error-7a92967bea80186d.js",revision:"7a92967bea80186d"},{url:"/_next/static/chunks/pages/documents-d88d73eb29c9aa2c.js",revision:"d88d73eb29c9aa2c"},{url:"/_next/static/chunks/pages/index-391c0bf6a9a5d18c.js",revision:"391c0bf6a9a5d18c"},{url:"/_next/static/chunks/pages/school/%5Bname%5D-61ae37a0371a7bc0.js",revision:"61ae37a0371a7bc0"},{url:"/_next/static/chunks/pages/signup-895ab7dcb96f9d4c.js",revision:"895ab7dcb96f9d4c"},{url:"/_next/static/chunks/pages/staff/%5Bname%5D-8cba13eb1a763bb1.js",revision:"8cba13eb1a763bb1"},{url:"/_next/static/chunks/polyfills-42372ed130431b0a.js",revision:"846118c33b2c0e922d7b3a7676f81f6f"},{url:"/_next/static/chunks/webpack-ee7e63bc15b31913.js",revision:"ee7e63bc15b31913"},{url:"/_next/static/css/11979fce5c42932c.css",revision:"11979fce5c42932c"},{url:"/_next/static/css/ab4ef6562d0648e3.css",revision:"ab4ef6562d0648e3"},{url:"/_next/static/g07qdkyj2hjvnPYfkgBLv/_buildManifest.js",revision:"f52ceeebcc5bdf14a5c0f730eea79422"},{url:"/_next/static/g07qdkyj2hjvnPYfkgBLv/_ssgManifest.js",revision:"b6652df95db52feb4daf4eca35380933"},{url:"/_next/static/media/plakat.b3e977ff.webp",revision:"5b794b8939662d0771ec0d4a79d43ce4"},{url:"/_next/static/media/polish-flag.8cc3d1f0.webp",revision:"5a9491eb30bc60022da4caa3f33d8664"},{url:"/_next/static/media/questrial-all-400-normal.2516b91a.woff",revision:"2516b91a"},{url:"/_next/static/media/questrial-latin-400-normal.221a17ee.woff2",revision:"221a17ee"},{url:"/_next/static/media/questrial-latin-ext-400-normal.e07800a6.woff2",revision:"e07800a6"},{url:"/_next/static/media/questrial-vietnamese-400-normal.830a06b4.woff2",revision:"830a06b4"},{url:"/background-left-buckle-long.svg",revision:"b675f396c02321dffada0cc763b55bd5"},{url:"/background-right-buckle-long.svg",revision:"64f405bd456117d556d0e22218dae552"},{url:"/card-icon1.svg",revision:"22f224b4f64c0696449eeb4d6eeda60b"},{url:"/card-icon2.svg",revision:"577c77de81fdaad79d6cacd581bca878"},{url:"/favicon.ico",revision:"490555c76c2557282341221744b8f728"},{url:"/fb.svg",revision:"e1bb73abe6a0e353ec7e6524d2b62e5d"},{url:"/files/KalendarzHolyCross.pdf",revision:"ba71a47f969172be6a0423205a0b4a93"},{url:"/files/KalendarzOasis.pdf",revision:"ef6b3cbeb95322391164a263fbf1987e"},{url:"/files/Podstawa-programowa-dla-szkol-polonijnych-w-jezyku-polskim.pdf",revision:"7d5cf19f19d1106210c1d7ce60324230"},{url:"/files/RegulaminPSJiK2023-2024.pdf",revision:"9945ed35871e2ecf2fa001b7c1d35036"},{url:"/files/RegulaminPSJiK2025-2026.pdf",revision:"e6babf8017b83f4b7a2824da64003066"},{url:"/files/Upowaznienie-do-odbioru-dziecka-lub-samodzielnego-opuszczania-terenu-szkoły.pdf",revision:"84dcc4f6c9fe0525cbd2603cb1c12a93"},{url:"/files/formularzzgłoszeniowyPSJiK.pdf",revision:"7653104fd7157530863478fbf524f2e8"},{url:"/funds.webp",revision:"f8ed358ccccbe11a2354bfb55ec03feb"},{url:"/graduation-student.svg",revision:"61ea10686d61c3715cdda94988abfbb4"},{url:"/icon-192x192.png",revision:"ae26009f5d1f1920d2f1c8def0e2ee59"},{url:"/icon-256x256.png",revision:"86614a798a0c72a0f5315f959b37bc4d"},{url:"/icon-384x384.png",revision:"b33561b18b960930a27594940883e8da"},{url:"/icon-512x512.png",revision:"6a8bfa380f3f72e4ff023c9c77d6bfef"},{url:"/icons/Ball.svg",revision:"711852741b555b0878688a02e7aaabc5"},{url:"/icons/Diploma.svg",revision:"86da1ec130328d90b49d81eb36233c2e"},{url:"/icons/Flower.svg",revision:"d5dc9d42ba5a0a5d7de54767b96ce50d"},{url:"/icons/Heart.svg",revision:"bef499ef1a1fbe93ec4bbbc7a6c139b0"},{url:"/icons/Home-blue.svg",revision:"8a1d039806e10ca3ceff8ae5b411813d"},{url:"/icons/Presentation.svg",revision:"d04eebe74ecd850db4d5edd92f5ca9b8"},{url:"/icons/authority.svg",revision:"8dbaa5fd905e46de96fa2102c881b658"},{url:"/icons/award-certificate.svg",revision:"088b75e20ea5ab1a4698e1dd29a6d3cd"},{url:"/icons/checklist.json",revision:"73076ea0281d25f5abbf6b1db9d2a310"},{url:"/icons/crown.svg",revision:"b965cdd8d04468e4437c77e1cc78fbc9"},{url:"/icons/documents.svg",revision:"3fcbd829fd0498b8f31470986bdc50ff"},{url:"/icons/form.png",revision:"328f5caf938edbd49e0716e622d5bd81"},{url:"/icons/form.svg",revision:"c8f398b0243914912413fbfcccbd161b"},{url:"/icons/hat.svg",revision:"42d40f2c191103cc4faebf8ffff9b02a"},{url:"/icons/smile.svg",revision:"62fdf00c9887729afd9dcee644820436"},{url:"/icons/teacher/AnimatedIconTeacher.js",revision:"1ed0d3067a3e95616f69c24fc9f08bca"},{url:"/icons/teacher/animatedIconTeacher.css",revision:"8af1a229cdaf2aadda0e96e54b3b33ca"},{url:"/index-logo.png",revision:"61a1bfa8e09d243cc41b7eb3628a4cd2"},{url:"/logo-holy-cross.webp",revision:"1486ae514ebf4a431a54e6af673602a6"},{url:"/logo-oasis.webp",revision:"062973d13047f4b355ec4927b6f56a7f"},{url:"/manifest.json",revision:"ef840e3b3ef91712d6f2ef3fd83e3d82"},{url:"/plakat.webp",revision:"5b794b8939662d0771ec0d4a79d43ce4"},{url:"/polish-flag.png",revision:"74e69b257ab5b36e51b33d7453516516"},{url:"/polish-flag.svg",revision:"0ae22ce4e99da47197d0ba272b470669"},{url:"/polish-flag.webp",revision:"5a9491eb30bc60022da4caa3f33d8664"},{url:"/polska-szkola-usmiechniete-dziecko.webp",revision:"dabab87f6b758ea4ef1782db06608561"},{url:"/projekt.jpg",revision:"9d363de07d388d009dd779fc0ed23252"},{url:"/projekt2.webp",revision:"716d9948fa5653693e1fa6538a7ac582"},{url:"/ps-bistol-social-media-card.webp",revision:"eba196c8ad2d6e1e0099c69500069fbf"},{url:"/signup-img.png",revision:"70cb411e22370b85c886baf75ddecc22"},{url:"/signup-placeholder.png",revision:"7cf7748bba8dd32c8149973ec0dd319b"},{url:"/social-media-card.png",revision:"fe8cf9117a0e6ee133b96e98ac093470"},{url:"/staff/Brygida Warych (Klasa 2 OASIS) 2.jpg",revision:"521e47fc456b3d2958cafb9ccba314be"},{url:"/staff/Brygida Warych (Klasa 2 OASIS).jpg",revision:"2dbbe2801ddc314081f0e768b2449718"},{url:"/staff/Joanna Michańska (Klasa 1 HOLY CROSS) 2.jpg",revision:"ce0002b380dd6e875ec0048f541b7bb2"},{url:"/staff/Joanna Michańska (Klasa 1 HOLY CROSS).jpg",revision:"1d4232aca24103758544ee0e79e58d93"},{url:"/staff/Krystyna Wójtowicz (Przedszkole OASIS).jpg",revision:"69508cb754012cbbbf4b4ba68e996460"},{url:"/staff/Luiza Parol (MANAGER HOLY CROSS) 2.jpg",revision:"0bf3b843707515fe06a90778e61e331f"},{url:"/staff/Luiza Parol (MANAGER HOLY CROSS).jpg",revision:"03038183c686485d791a2d383da91668"},{url:"/staff/Magda Marcinkowska (Klasa 0 OASIS) 2.jpg",revision:"054eeb1008443b496a83722528e73d9f"},{url:"/staff/Magda Marcinkowska (Klasa 0 OASIS).jpg",revision:"aceeb6ca97b1f556f044c89249e5d9b8"},{url:"/staff/Magda Shad (Klasa 0 Holy Cross).jpg",revision:"0ed78bc6ea296d49ff803ebdb460f479"},{url:"/staff/Magda Shad (Klasa 0 Holy Cross)2.jpg",revision:"a5a25e1fc4715e369faf36e7e4f46deb"},{url:"/staff/Marta Gancarek (Klasa 5 OASIS) 2.jpg",revision:"55b9a454f69359606ec0c5df33d76e10"},{url:"/staff/Marta Gancarek (Klasa 5 OASIS).jpg",revision:"a80f358cca6cf4a4e5e3e88dbd80327c"},{url:"/staff/Marta Jóźwiak (Przedszkole Holy Cross) 2.jpg",revision:"1586b5b0e5e989cdf53ad1a631432230"},{url:"/staff/Marta Jóźwiak (Przedszkole Holy Cross).jpg",revision:"7d942d2d8507a8cb660992dddd9f367c"},{url:"/staff/Małgorzata Kislingbury (Klasa 4 HOLY CROSS) 2.jpg",revision:"53bd131db747592b45167fdb07ae61d4"},{url:"/staff/Małgorzata Kislingbury (Klasa 4 HOLY CROSS).jpg",revision:"1955ed0be2475eadd9720904533b58eb"},{url:"/staff/Monika Grabowska (Asystent przedszkola Holy Cross).jpg",revision:"d5b6b540d6d7e9321861238cd8c45520"},{url:"/staff/Monika Jurgiel (Klasa 2 HOLY CROSS) 2.jpg",revision:"3b2c2d4b73dcd3c96807f50f54b164d9"},{url:"/staff/Monika Jurgiel (Klasa 2 HOLY CROSS).jpg",revision:"260df5e6475e2dddf643fd2b3983f872"},{url:"/staff/Patrycja Przygodzka (Dyrektor) 2.jpg",revision:"786e72bf0fc6696e9bf4d95616e1bbdd"},{url:"/staff/Patrycja Przygodzka (Dyrektor).jpg",revision:"e53e36353f146156f5dda473edae8a3a"},{url:"/staff/Patrycja Sikorska (Dyrektor).jpg",revision:"240a3a5000cd0ad36605fb3ed4764da1"},{url:"/staff/Patrycja Sikorska.jpg",revision:"f374f553a25a0bc856a9aa89a4027404"},{url:"/staff/Sylwia Sikocińska (GCSE) 2.jpg",revision:"ef2077653e61a6dce0b11f0c0fb31dc9"},{url:"/staff/Sylwia Sikocińska (GCSE).jpg",revision:"dee0f25f14c77e2de67cb0f318a40ff3"},{url:"/staff/Sylwia Łakoma (Klasa 3 HOLY CROS) 2.jpg",revision:"e95d4d53250e8ac4afd37dcbb6a6e885"},{url:"/staff/Sylwia Łakoma (Klasa 3 HOLY CROSS).jpg",revision:"4ee3aa81daf7c4912caab355bd01d174"},{url:"/staff/teacher-Patrycja Sikorska.jpg",revision:"04a88aa3504091d7680f14724b77ad55"},{url:"/star.svg",revision:"3d5da52fa9d28fe3279fc52fa48186c2"},{url:"/strona-glowna.png",revision:"e9f0f36da4384e458990429235c0276e"},{url:"/tape-particle-2.svg",revision:"68a7ac59244c2988a68dd108ca2e10a0"},{url:"/tape-particle1.svg",revision:"78af27e44b82e7256e8be77e6ee6a14f"},{url:"/teacher-bro.svg",revision:"ba570c396d69ea4a88209a0bad842d19"},{url:"/why-usoverlay.webp",revision:"5c6ac0e6ff606a0ad47154428dcb4751"}],{ignoreURLParametersMatching:[]}),e.cleanupOutdatedCaches(),e.registerRoute("/",new e.NetworkFirst({cacheName:"start-url",plugins:[{cacheWillUpdate:async({request:e,response:a,event:s,state:i})=>a&&"opaqueredirect"===a.type?new Response(a.body,{status:200,statusText:"OK",headers:a.headers}):a}]}),"GET"),e.registerRoute(/^https:\/\/fonts\.(?:gstatic)\.com\/.*/i,new e.CacheFirst({cacheName:"google-fonts-webfonts",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:31536e3})]}),"GET"),e.registerRoute(/^https:\/\/fonts\.(?:googleapis)\.com\/.*/i,new e.StaleWhileRevalidate({cacheName:"google-fonts-stylesheets",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:604800})]}),"GET"),e.registerRoute(/\.(?:eot|otf|ttc|ttf|woff|woff2|font.css)$/i,new e.StaleWhileRevalidate({cacheName:"static-font-assets",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:604800})]}),"GET"),e.registerRoute(/\.(?:jpg|jpeg|gif|png|svg|ico|webp)$/i,new e.StaleWhileRevalidate({cacheName:"static-image-assets",plugins:[new e.ExpirationPlugin({maxEntries:64,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\/_next\/image\?url=.+$/i,new e.StaleWhileRevalidate({cacheName:"next-image",plugins:[new e.ExpirationPlugin({maxEntries:64,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:mp3|wav|ogg)$/i,new e.CacheFirst({cacheName:"static-audio-assets",plugins:[new e.RangeRequestsPlugin,new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:mp4)$/i,new e.CacheFirst({cacheName:"static-video-assets",plugins:[new e.RangeRequestsPlugin,new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:js)$/i,new e.StaleWhileRevalidate({cacheName:"static-js-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:css|less)$/i,new e.StaleWhileRevalidate({cacheName:"static-style-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\/_next\/data\/.+\/.+\.json$/i,new e.StaleWhileRevalidate({cacheName:"next-data",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:json|xml|csv)$/i,new e.NetworkFirst({cacheName:"static-data-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute((({url:e})=>{if(!(self.origin===e.origin))return!1;const a=e.pathname;return!a.startsWith("/api/auth/")&&!!a.startsWith("/api/")}),new e.NetworkFirst({cacheName:"apis",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:16,maxAgeSeconds:86400})]}),"GET"),e.registerRoute((({url:e})=>{if(!(self.origin===e.origin))return!1;return!e.pathname.startsWith("/api/")}),new e.NetworkFirst({cacheName:"others",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute((({url:e})=>!(self.origin===e.origin)),new e.NetworkFirst({cacheName:"cross-origin",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:3600})]}),"GET")}));
+/**
+ * Copyright 2018 Google Inc. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+// If the loader is already loaded, just stop.
+if (!self.define) {
+  let registry = {};
+
+  // Used for `eval` and `importScripts` where we can't get script URL by other means.
+  // In both cases, it's safe to use a global var because those functions are synchronous.
+  let nextDefineUri;
+
+  const singleRequire = (uri, parentUri) => {
+    uri = new URL(uri + ".js", parentUri).href;
+    return registry[uri] || (
+      
+        new Promise(resolve => {
+          if ("document" in self) {
+            const script = document.createElement("script");
+            script.src = uri;
+            script.onload = resolve;
+            document.head.appendChild(script);
+          } else {
+            nextDefineUri = uri;
+            importScripts(uri);
+            resolve();
+          }
+        })
+      
+      .then(() => {
+        let promise = registry[uri];
+        if (!promise) {
+          throw new Error(`Module ${uri} didn’t register its module`);
+        }
+        return promise;
+      })
+    );
+  };
+
+  self.define = (depsNames, factory) => {
+    const uri = nextDefineUri || ("document" in self ? document.currentScript.src : "") || location.href;
+    if (registry[uri]) {
+      // Module is already loading or loaded.
+      return;
+    }
+    let exports = {};
+    const require = depUri => singleRequire(depUri, uri);
+    const specialDeps = {
+      module: { uri },
+      exports,
+      require
+    };
+    registry[uri] = Promise.all(depsNames.map(
+      depName => specialDeps[depName] || require(depName)
+    )).then(deps => {
+      factory(...deps);
+      return exports;
+    });
+  };
+}
+define(['./workbox-dcc2092c'], (function (workbox) { 'use strict';
+
+  importScripts();
+  self.skipWaiting();
+  workbox.clientsClaim();
+  workbox.registerRoute("/", new workbox.NetworkFirst({
+    "cacheName": "start-url",
+    plugins: [{
+      cacheWillUpdate: async ({
+        request,
+        response,
+        event,
+        state
+      }) => {
+        if (response && response.type === 'opaqueredirect') {
+          return new Response(response.body, {
+            status: 200,
+            statusText: 'OK',
+            headers: response.headers
+          });
+        }
+        return response;
+      }
+    }]
+  }), 'GET');
+  workbox.registerRoute(/.*/i, new workbox.NetworkOnly({
+    "cacheName": "dev",
+    plugins: []
+  }), 'GET');
+
+}));
+//# sourceMappingURL=sw.js.map

@@ -72,40 +72,46 @@ export const feesOasis = [
   { id: 11, paymentDate: '4 lipca 2026', period: oneSaturday },
 ];
 
+const staffImageProps = {
+  placeholder: 'blur',
+  blurDataURL:
+    'data:image/webp;base64,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',
+};
+
 export const staffBedminister = [
   {
     id: 1,
     name: 'Patrycja Sikorska',
     role: 'Dyrektor',
-    photo: '/staff/Patrycja Sikorska.jpg',
-    photo2: '/staff/Patrycja Sikorska (Dyrektor).jpg',
+    photo: '/staff/PatrycjaSikorska.jpg',
+    photo2: '/staff/PatrycjaSikorska2.jpg',
   },
   {
     id: 11,
     name: 'Patrycja Przygodzka',
     role: 'Dyrektor',
-    photo: '/staff/Patrycja Przygodzka (Dyrektor).jpg',
-    photo2: '/staff/Patrycja Przygodzka (Dyrektor) 2.jpg',
+    photo: '/staff/PatrycjaPrzygodzka.jpg',
+    photo2: '/staff/PatrycjaPrzygodzka2.jpg',
   },
   {
     id: 2,
     name: 'Luiza Parol',
     role: 'Manager Szkoły',
-    photo: '/staff/Luiza Parol (MANAGER HOLY CROSS).jpg',
-    photo2: '/staff/Luiza Parol (MANAGER HOLY CROSS) 2.jpg',
+    photo: '/staff/LuizaParol.jpg',
+    photo2: '/staff/LuizaParol2.jpg',
   },
   {
     id: 22,
     name: 'Marta Jóźwiak',
     role: 'Przedszkole',
-    photo: '/staff/Marta Jóźwiak (Przedszkole Holy Cross).jpg',
-    photo2: '/staff/Marta Jóźwiak (Przedszkole Holy Cross) 2.jpg',
+    photo: '/staff/MartaJóźwiak.jpg',
+    photo2: '/staff/MartaJóźwiak2.jpg',
   },
   {
     id: 33,
     name: 'Monika Grabowska',
     role: 'Asystentka nauczyciela',
-    photo: '/staff/Monika Grabowska (Asystent przedszkola Holy Cross).jpg',
+    photo: '/staff/MonikaGrabowska.jpg',
   },
   {
     id: 44,
@@ -116,36 +122,36 @@ export const staffBedminister = [
     id: 3,
     name: 'Magdalena Shad',
     role: 'Klasa "0"',
-    photo: '/staff/Magda Shad (Klasa 0 Holy Cross).jpg',
-    photo2: '/staff/Magda Shad (Klasa 0 Holy Cross)2.jpg',
+    photo: '/staff/MagdaShad.jpg',
+    photo2: '/staff/MagdaShad2.jpg',
   },
   {
     id: 99,
     name: 'Joanna Michańska',
     role: '1 - Klasa',
-    photo: '/staff/Joanna Michańska (Klasa 1 HOLY CROSS).jpg',
-    photo2: '/staff/Joanna Michańska (Klasa 1 HOLY CROSS) 2.jpg',
+    photo: '/staff/JoannaMichańska.jpg',
+    photo2: '/staff/JoannaMichańska2.jpg',
   },
   {
     id: 4,
     name: 'Monika Jurgiel',
     role: '2 - Klasa',
-    photo: '/staff/Monika Jurgiel (Klasa 2 HOLY CROSS).jpg',
-    photo2: '/staff/Monika Jurgiel (Klasa 2 HOLY CROSS) 2.jpg',
+    photo: '/staff/MonikaJurgiel.jpg',
+    photo2: '/staff/MonikaJurgiel2.jpg',
   },
   {
     id: 5,
     name: 'Sylwia Łakoma',
     role: '3 - Klasa',
-    photo: '/staff/Sylwia Łakoma (Klasa 3 HOLY CROSS).jpg',
-    photo2: '/staff/Sylwia Łakoma (Klasa 3 HOLY CROS) 2.jpg',
+    photo: '/staff/SylwiaŁakoma.jpg',
+    photo2: '/staff/SylwiaŁakoma2.jpg',
   },
   {
     id: 7,
     name: 'Małgorzata Kislingbury',
     role: '4 - Klasa',
-    photo: '/staff/Małgorzata Kislingbury (Klasa 4 HOLY CROSS).jpg',
-    photo2: '/staff/Małgorzata Kislingbury (Klasa 4 HOLY CROSS) 2.jpg',
+    photo: '/staff/MałgorzataKislingbury.jpg',
+    photo2: '/staff/MałgorzataKislingbury2.jpg',
   },
   {
     id: 8,
@@ -157,22 +163,22 @@ export const staffBedminister = [
     name: 'Barbara Studzienna',
     role: 'Klasa GCSE',
   },
-];
+].map((x) => ({ ...x, ...staffImageProps }));
 
 export const staffOasis = [
   {
     id: 1,
     name: 'Patrycja Przygodzka',
     role: 'Dyrektor',
-    photo: '/staff/Patrycja Przygodzka (Dyrektor).jpg',
-    photo2: '/staff/Patrycja Przygodzka (Dyrektor) 2.jpg',
+    photo: '/staff/PatrycjaPrzygodzka.jpg',
+    photo2: '/staff/PatrycjaPrzygodzka2.jpg',
   },
   {
     id: 11,
     name: 'Patrycja Sikorska',
     role: 'Dyrektor',
-    photo: '/staff/Patrycja Sikorska.jpg',
-    photo2: '/staff/Patrycja Sikorska (Dyrektor).jpg',
+    photo: '/staff/PatrycjaSikorska.jpg',
+    photo2: '/staff/PatrycjaSikorska2.jpg',
   },
   {
     id: 8,
@@ -183,7 +189,7 @@ export const staffOasis = [
     id: 2,
     name: 'Krystyna Wójtowicz',
     role: 'Młodsze Przedszkole',
-    photo: '/staff/Krystyna Wójtowicz (Przedszkole OASIS).jpg',
+    photo: '/staff/KrystynaWójtowicz.jpg',
   },
   {
     id: 11,
@@ -209,8 +215,8 @@ export const staffOasis = [
     id: 3,
     name: 'Magda Marcinkowska',
     role: 'Klasa "0"',
-    photo: '/staff/Magda Marcinkowska (Klasa 0 OASIS).jpg',
-    photo2: '/staff/Magda Marcinkowska (Klasa 0 OASIS) 2.jpg',
+    photo: '/staff/MagdaMarcinkowska.jpg',
+    photo2: '/staff/MagdaMarcinkowska2.jpg',
   },
   {
     id: 15,
@@ -221,8 +227,8 @@ export const staffOasis = [
     id: 6,
     name: 'Brygida Warych',
     role: '2 - Klasa',
-    photo: '/staff/Brygida Warych (Klasa 2 OASIS).jpg',
-    photo2: '/staff/Brygida Warych (Klasa 2 OASIS) 2.jpg',
+    photo: '/staff/BrygidaWarych.jpg',
+    photo2: '/staff/BrygidaWarych2.jpg',
   },
   {
     id: 7,
@@ -233,18 +239,17 @@ export const staffOasis = [
     id: 9,
     name: 'Marta Gancarek',
     role: '5 - Klasa',
-    photo: '/staff/Marta Gancarek (Klasa 5 OASIS).jpg',
-    photo2: '/staff/Marta Gancarek (Klasa 5 OASIS) 2.jpg',
+    photo: '/staff/MartaGancarek.jpg',
+    photo2: '/staff/MartaGancarek2.jpg',
   },
   {
     id: 10,
     name: 'Sylwia Sikocińska',
     role: 'Klasa GCSE',
-    photo: '/staff/Sylwia Sikocińska (GCSE).jpg',
-    photo2: '/staff/Sylwia Sikocińska (GCSE) 2.jpg',
+    photo: '/staff/SylwiaSikocińska.jpg',
+    photo2: '/staff/SylwiaSikocińska2.jpg',
   },
-];
-
+].map((x) => ({ ...x, ...staffImageProps }));
 
 export const tableDataOasis = [
   'Anders Army Polish School',

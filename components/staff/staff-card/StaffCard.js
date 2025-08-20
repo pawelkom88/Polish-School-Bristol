@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import placeholder from '../../../public/polish-flag.webp';
 
-export default function StaffCard({ teacherInfo }) {
+export default function StaffCard({ teacherInfo, loading }) {
   const [isHoverd, setIsHovered] = useState(false);
   const cardWidth = 'w-[20rem]';
 
@@ -34,6 +34,9 @@ export default function StaffCard({ teacherInfo }) {
               fill
               sizes="(max-width: 640px) 100vw, 20rem"
               className="object-cover object-top"
+              placeholder={teacherInfo.placeholder}
+              blurDataURL={teacherInfo.blurDataURL}
+              loading={loading}
             />
           </div>
           <h2 className="mt-4 text-center text-xl font-medium">
@@ -51,6 +54,9 @@ export default function StaffCard({ teacherInfo }) {
               fill
               sizes="(max-width: 640px) 100vw, 20rem"
               className="object-cover object-top"
+              placeholder={teacherInfo.placeholder}
+              blurDataURL={teacherInfo.blurDataURL}
+              loading={loading}
             />
           </div>
           <p className="p-2 text-base">{teacherInfo.desc}</p>
