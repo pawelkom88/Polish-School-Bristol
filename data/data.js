@@ -104,8 +104,8 @@ export const staffBedminister = [
     id: 22,
     name: 'Marta Jóźwiak',
     role: 'Przedszkole',
-    photo: '/staff/MartaJóźwiak.jpg',
-    photo2: '/staff/MartaJóźwiak2.jpg',
+    photo: '/staff/MartaJozwiak.jpg',
+    photo2: '/staff/MartaJozwiak2.jpg',
   },
   {
     id: 33,
@@ -127,10 +127,10 @@ export const staffBedminister = [
   },
   {
     id: 99,
-    name: 'Joanna Michańska',
+    name: 'Joanna Michań́ska',
     role: '1 - Klasa',
-    photo: '/staff/JoannaMichańska.jpg',
-    photo2: '/staff/JoannaMichańska2.jpg',
+    photo: '/staff/JoannaMichanska.jpg',
+    photo2: '/staff/JoannaMichanska2.jpg',
   },
   {
     id: 4,
@@ -143,8 +143,8 @@ export const staffBedminister = [
     id: 5,
     name: 'Sylwia Łakoma',
     role: '3 - Klasa',
-    photo: '/staff/SylwiaŁakoma.jpg',
-    photo2: '/staff/SylwiaŁakoma2.jpg',
+    photo: '/staff/SylwiaLakoma.jpg',
+    photo2: '/staff/SylwiaLakoma2.jpg',
   },
   {
     id: 7,
@@ -246,8 +246,8 @@ export const staffOasis = [
     id: 10,
     name: 'Sylwia Sikocińska',
     role: 'Klasa GCSE',
-    photo: '/staff/SylwiaSikocińska.jpg',
-    photo2: '/staff/SylwiaSikocińska2.jpg',
+    photo: '/staff/SylwiaSikocinska.jpg',
+    photo2: '/staff/SylwiaSikocinska2.jpg',
   },
 ].map((x) => ({ ...x, ...staffImageProps }));
 
