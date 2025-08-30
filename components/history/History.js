@@ -20,7 +20,7 @@ export default function History() {
       </li>
 
       <li>
-        Dziś uczymy w dwóch lokalizacjach: Holy Cross Catholic Primary School oraz Oasis Academy Bank Leaze. Tworzymy społeczność blisko 300 osób – dzieci, rodziców, nauczycieli i przyjaciół szkoły. Łączy nas wspólna misja: nauka języka polskiego, pielęgnowanie tradycji i historii, a także budowanie dumy z polskich korzeni.
+        Dziś uczymy w dwóch lokalizacjach: Holy Cross Catholic Primary School oraz Oasis Academy Bank Leaze. Tworzymy społeczność blisko 600 osób – dzieci, rodziców, nauczycieli i przyjaciół szkoły. Łączy nas wspólna misja: nauka języka polskiego, pielęgnowanie tradycji i historii, a także budowanie dumy z polskich korzeni.
       </li>
 
       <li>

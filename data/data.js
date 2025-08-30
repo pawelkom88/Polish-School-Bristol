@@ -90,8 +90,8 @@ export const staffBedminister = [
     id: 11,
     name: 'Patrycja Przygodzka',
     role: 'Dyrektor',
-    photo: '/staff/PatrycjaPrzygodzka.jpg',
-    photo2: '/staff/PatrycjaPrzygodzka2.jpg',
+    photo: '/staff/PatrycjaPrzygodzka.webp',
+    photo2: '/staff/PatrycjaPrzygodzka2.webp',
   },
   {
     id: 2,
@@ -170,8 +170,8 @@ export const staffOasis = [
     id: 1,
     name: 'Patrycja Przygodzka',
     role: 'Dyrektor',
-    photo: '/staff/PatrycjaPrzygodzka.jpg',
-    photo2: '/staff/PatrycjaPrzygodzka2.jpg',
+    photo: '/staff/PatrycjaPrzygodzka.webp',
+    photo2: '/staff/PatrycjaPrzygodzka2.webp',
   },
   {
     id: 11,
