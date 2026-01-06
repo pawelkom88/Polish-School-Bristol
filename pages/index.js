@@ -7,9 +7,7 @@ import JsonLd from '@components/seo/JsonLd';
 import { buildWebsiteJsonLd, buildOrganizationJsonLd, SITE_CONFIG } from '@config/seo';
 import SchoolUnit from '@components/units/SchoolUnit';
 import WhyUs from '@components/why-us/WhyUs';
-import Image from 'next/image';
-import plakat from '../public/plakat.webp';
-import Link from 'next/link';
+import Support from '@components/financial-support/support';
 
 export default function Home() {
   const websiteJsonLd = buildWebsiteJsonLd({ siteUrl: SITE_CONFIG.url });
@@ -24,9 +22,10 @@ export default function Home() {
         <Section title="Historia SZKOŁY">
           <History />
         </Section>
-      <Link href="/signup">
-        <Image src={plakat} alt="plakat" />
-      </Link>
+          <Support />
+      {/*<Link href="/signup">*/}
+      {/*  <Image src={plakat} alt="plakat" />*/}
+      {/*</Link>*/}
       </Layout>
       <WhyUs />
     </>
