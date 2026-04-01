@@ -9,26 +9,25 @@ export default function Support() {
       <h2 className="xl:text-5xl text-4xl text-center font-bold mb-7">
         Dofinansowania
       </h2>
-      {/*<News index={1} details={grant1} />*/}
-      {/*<br />*/}
-      {/*<hr className="my-6 mx-auto max-w-[90%] border-gray-300" />*/}
-      {/*<br />*/}
-      {/*<News index={2} details={grant2} />*/}
+      {/* <News index={1} details={grant1} /> */}
+      <hr className="mt-6 mx-auto max-w-[90%] border-gray-300" />
+      {/* <News index={2} details={grant2} /> */}
       <Image
         className="m-auto"
         width={800}
         height={800}
-        src="/dofinansowanie.jpeg"
+        src="/dofinansowanie1.jpeg"
         alt="flaga oraz godlo Polski wraz z tytulem projektu"
       />
-      {/*<br />*/}
-      {/*<Image*/}
-      {/*  className="m-auto"*/}
-      {/*  width={800}*/}
-      {/*  height={800}*/}
-      {/*  src={projekt2}*/}
-      {/*  alt="??"*/}
-      {/*/>*/}
+      <br />
+      <Image
+        className="m-auto"
+        width={800}
+        height={800}
+        src="/dofinansowanie2.jpeg"
+        alt="??"
+      />
+      <hr className="mt-6 mx-auto max-w-[90%] border-gray-300" />
     </div>
   );
 }
