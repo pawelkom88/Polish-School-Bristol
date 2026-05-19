@@ -28,7 +28,7 @@ export default function Form({}) {
               <span className="pl-2">Zapoznaj się z regulaminem szkoły</span>
               <a
                 className="block hover:-translate-y-2 hover:scale-110 transition-transform duration-500"
-                href="https://ps-bristol.netlify.app/files/RegulaminPSJiK2025-2026.pdf"
+                href="https://ps-bristol.netlify.app/files/RegulaminPSJiK2026-2027.pdf"
               >
                 <Image
                   className="mx-auto my-8"
@@ -54,7 +54,7 @@ export default function Form({}) {
                   }}
                   href="mailto:PolishSchoolBristol2@gmail.com"
                 >
-                  PolishSchoolBristol2@gmail.com (Holy Cross)
+                  PolishSchoolBristol2@gmail.com (Holy Cross na BS3)
                 </a>{' '}
                 lub{' '}
                 <a
@@ -64,7 +64,7 @@ export default function Form({}) {
                   }}
                   href="mailto:PolishSchoolBristol@gmail.com"
                 >
-                  PolishSchoolBristol@gmail.com (Oasis)
+                  PolishSchoolBristol@gmail.com (Oasis na BS11)
                 </a>{' '}
               </span>
             </li>

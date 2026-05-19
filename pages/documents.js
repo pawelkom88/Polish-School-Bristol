@@ -24,7 +24,7 @@ export default function Documents() {
           <li>
             <a
               className="block hover:-translate-y-2 hover:scale-110 transition-transform duration-500"
-              href="https://ps-bristol.netlify.app/files/RegulaminPSJiK2025-2026.pdf"
+              href="https://ps-bristol.netlify.app/files/RegulaminPSJiK2026-2027.pdf"
             >
               <Image
                 className="mx-auto my-8"

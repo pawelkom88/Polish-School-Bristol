@@ -1,5 +1,6 @@
 import Icon from '../icons/Icon';
 import Image from 'next/image';
+import VideoContainer from '../video/VideoContainer';
 
 export default function Hero() {
   return (
@@ -28,6 +29,9 @@ export default function Hero() {
         Chcemy, aby nasi uczniowie poznali i pielęgnowali polskie tradycje i
         obyczaje, stając się ambasadorami kultury polskiej na świecie.
       </p>
+      <div className="w-full md:w-1/2 lg:w-1/3 mt-6">
+        <VideoContainer srcMp4="/files/rejestracja.mp4" srcWebm="/files/rejestracja.webm" poster="/files/plakat.webp" />
+      </div>
     </section>
   );
 }
