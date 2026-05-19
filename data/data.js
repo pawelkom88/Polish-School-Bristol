@@ -187,9 +187,8 @@ export const staffOasis = [
   },
   {
     id: 2,
-    name: 'Krystyna Wójtowicz',
-    role: 'Młodsze Przedszkole',
-    photo: '/staff/KrystynaWojtowicz.jpg',
+    name: 'Gabriela Tryjankowska',
+    role: 'Przedszkole',
   },
   {
     id: 11,
