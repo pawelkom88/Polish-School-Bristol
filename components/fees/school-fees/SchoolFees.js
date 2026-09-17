@@ -12,11 +12,13 @@ export default function SchoolFees({ schoolName }) {
       </p>
       <table className="w-full md:w-2/3 border text-center dark:border-neutral-500">
         <thead className="border-b font-medium dark:border-neutral-500">
-          <TableHeading styles="bg-gray-100">#</TableHeading>
-          <TableHeading styles="bg-gray-100"> Termin Platności</TableHeading>
-          <TableHeading styles="bg-gray-100">
-            Ilość Sobót w miesiącu
-          </TableHeading>
+          <tr>
+            <TableHeading styles="bg-gray-100">#</TableHeading>
+            <TableHeading styles="bg-gray-100">Termin Platności</TableHeading>
+            <TableHeading styles="bg-gray-100">
+              Ilość Sobót w miesiącu
+            </TableHeading>
+          </tr>
         </thead>
         <tbody>
           {fees.map(({ id, paymentDate, period }) => {

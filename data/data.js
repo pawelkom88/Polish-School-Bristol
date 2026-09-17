@@ -45,31 +45,30 @@ const twoSaturdays = '2 Soboty';
 const oneSaturday = '1 Sobota';
 
 export const feesHolyCross = [
-  { id: 1, paymentDate: '27 września 2025', period: twoSaturdays },
-  { id: 2, paymentDate: '4 października 2025', period: fourSaturdays },
-  { id: 3, paymentDate: '8 listopada 2025', period: fourSaturdays },
-  { id: 4, paymentDate: '6 grudnia 2025', period: threeSaturdays },
-  { id: 5, paymentDate: '10 stycznia 2026', period: fourSaturdays },
-  { id: 6, paymentDate: '7 lutego 2026', period: threeSaturdays },
-  { id: 7, paymentDate: '7 marca 2026', period: fourSaturdays },
-  { id: 8, paymentDate: '18 kwietnia 2026', period: twoSaturdays },
-  { id: 9, paymentDate: '9 maja 2026', period: threeSaturdays },
-  { id: 10, paymentDate: '6 czerwca 2026', period: oneSaturday },
-  { id: 1, paymentDate: '4 lipca 2026', period: oneSaturday },
+  { id: 1, paymentDate: '26 września 2026', period: twoSaturdays },
+  { id: 2, paymentDate: '3 października 2026', period: fourSaturdays },
+  { id: 3, paymentDate: '7 listopada 2026', period: fourSaturdays },
+  { id: 4, paymentDate: '5 grudnia 2026', period: twoSaturdays },
+  { id: 5, paymentDate: '9 stycznia 2027', period: fourSaturdays },
+  { id: 6, paymentDate: '6 lutego 2027', period: threeSaturdays },
+  { id: 7, paymentDate: '6 marca 2027', period: threeSaturdays },
+  { id: 8, paymentDate: '17 kwietnia 2027', period: twoSaturdays },
+  { id: 9, paymentDate: '8 maja 2027', period: fourSaturdays },
+  { id: 10, paymentDate: '12 czerwca 2027', period: threeSaturdays },
+  { id: 11, paymentDate: '3 lipca 2027', period: twoSaturdays },
 ];
 
 export const feesOasis = [
-  { id: 1, paymentDate: '27 września 2025', period: twoSaturdays },
-  { id: 2, paymentDate: '4 października 2025', period: fourSaturdays },
-  { id: 3, paymentDate: '8 listopada 2025', period: fourSaturdays },
-  { id: 4, paymentDate: '6 grudnia 2025', period: threeSaturdays },
-  { id: 5, paymentDate: '10 stycznia 2026', period: fourSaturdays },
-  { id: 6, paymentDate: '7 lutego 2026', period: threeSaturdays },
-  { id: 7, paymentDate: '7 marca 2026', period: fourSaturdays },
-  { id: 8, paymentDate: '18 kwietnia 2026', period: twoSaturdays },
-  { id: 9, paymentDate: '9 maja 2026', period: threeSaturdays },
-  { id: 10, paymentDate: '6 czerwca 2026', period: fourSaturdays },
-  { id: 11, paymentDate: '4 lipca 2026', period: oneSaturday },
+  { id: 1, paymentDate: '26 września 2026', period: twoSaturdays },
+  { id: 2, paymentDate: '3 października 2026', period: fourSaturdays },
+  { id: 3, paymentDate: '7 listopada 2026', period: fourSaturdays },
+  { id: 4, paymentDate: '5 grudnia 2026', period: twoSaturdays },
+  { id: 5, paymentDate: '9 stycznia 2027', period: fourSaturdays },
+  { id: 6, paymentDate: '6 lutego 2027', period: threeSaturdays },
+  { id: 7, paymentDate: '6 marca 2027', period: threeSaturdays },
+  { id: 8, paymentDate: '10 kwietnia 2027', period: threeSaturdays },
+  { id: 9, paymentDate: '8 maja 2027', period: fourSaturdays },
+  { id: 10, paymentDate: '12 czerwca 2027', period: threeSaturdays },
 ];
 
 const staffImageProps = {
@@ -108,14 +107,24 @@ export const staffBedminister = [
     photo2: '/staff/MartaJozwiak2.jpg',
   },
   {
+    id: 31,
+    name: 'Agnieszka Nowak',
+    role: 'Asystentka nauczyciela',
+  },
+  {
     id: 33,
     name: 'Monika Grabowska',
     role: 'Asystentka nauczyciela',
     photo: '/staff/MonikaGrabowska.jpg',
   },
   {
-    id: 44,
-    name: 'Justyna Małek',
+    id: 34,
+    name: 'Edyta Paluch',
+    role: 'Asystentka nauczyciela',
+  },
+  {
+    id: 35,
+    name: 'Julia Głogowska',
     role: 'Asystentka nauczyciela',
   },
   {
@@ -126,37 +135,33 @@ export const staffBedminister = [
     photo2: '/staff/MagdaShad2.jpg',
   },
   {
-    id: 99,
-    name: 'Joanna Michań́ska',
+    id: 40,
+    name: 'Ewa Dziechciarz',
     role: '1 - Klasa',
+  },
+  {
+    id: 99,
+    name: 'Joanna Michańska',
+    role: '2 - Klasa',
     photo: '/staff/JoannaMichanska.jpg',
     photo2: '/staff/JoannaMichanska2.jpg',
   },
   {
-    id: 4,
-    name: 'Monika Jurgiel',
-    role: '2 - Klasa',
-    photo: '/staff/MonikaJurgiel.jpg',
-    photo2: '/staff/MonikaJurgiel2.jpg',
-  },
-  {
-    id: 5,
-    name: 'Sylwia Łakoma',
-    role: '3 - Klasa',
-    photo: '/staff/SylwiaLakoma.jpg',
-    photo2: '/staff/SylwiaLakoma2.jpg',
-  },
-  {
     id: 7,
     name: 'Małgorzata Kislingbury',
-    role: '4 - Klasa',
+    role: '3 - Klasa',
     photo: '/staff/MałgorzataKislingbury.jpg',
     photo2: '/staff/MałgorzataKislingbury2.jpg',
   },
   {
     id: 8,
     name: 'Joanna Alankowicz',
-    role: 'Klasa gimnazjalna',
+    role: '5 - Klasa',
+  },
+  {
+    id: 44,
+    name: 'Justyna Małek',
+    role: '6 - Klasa',
   },
   {
     id: 9,
@@ -168,17 +173,17 @@ export const staffBedminister = [
 export const staffOasis = [
   {
     id: 1,
-    name: 'Patrycja Przygodzka',
-    role: 'Dyrektor',
-    photo: '/staff/PatrycjaPrzygodzka.webp',
-    photo2: '/staff/PatrycjaPrzygodzka2.webp',
-  },
-  {
-    id: 11,
     name: 'Patrycja Sikorska',
     role: 'Dyrektor',
     photo: '/staff/PatrycjaSikorska.jpg',
     photo2: '/staff/PatrycjaSikorska2.jpg',
+  },
+  {
+    id: 2,
+    name: 'Patrycja Przygodzka',
+    role: 'Dyrektor',
+    photo: '/staff/PatrycjaPrzygodzka.webp',
+    photo2: '/staff/PatrycjaPrzygodzka2.webp',
   },
   {
     id: 8,
@@ -186,8 +191,8 @@ export const staffOasis = [
     role: 'Manager Szkoły',
   },
   {
-    id: 2,
-    name: 'Gabriela Tryjankowska',
+    id: 13,
+    name: 'Urszula Wiśniewska',
     role: 'Przedszkole',
   },
   {
@@ -197,12 +202,7 @@ export const staffOasis = [
   },
   {
     id: 12,
-    name: 'Weronika Buczyńska',
-    role: 'asystent nauczyciela',
-  },
-  {
-    id: 13,
-    name: 'Urszula Wiśniewska',
+    name: 'Dominika Rybak',
     role: 'asystent nauczyciela',
   },
   {
@@ -211,35 +211,38 @@ export const staffOasis = [
     role: 'asystent nauczyciela',
   },
   {
+    id: 20,
+    name: 'Maria Hooper',
+    role: 'Klasa "0"',
+  },
+  {
     id: 3,
     name: 'Magda Marcinkowska',
-    role: 'Klasa "0"',
+    role: '1 - Klasa',
     photo: '/staff/MagdaMarcinkowska.jpg',
     photo2: '/staff/MagdaMarcinkowska2.jpg',
   },
   {
-    id: 15,
-    name: 'Ewelina Niedzielska',
-    role: '1 - Klasa',
+    id: 4,
+    name: 'Gabriela Tryjankowska',
+    role: '2 - Klasa',
   },
   {
     id: 6,
     name: 'Brygida Warych',
-    role: '2 - Klasa',
+    role: '3 - Klasa',
     photo: '/staff/BrygidaWarych.jpg',
     photo2: '/staff/BrygidaWarych2.jpg',
   },
   {
     id: 7,
     name: 'Katarzyna Skrzypacz',
-    role: '3 - Klasa',
+    role: '4 - Klasa',
   },
   {
-    id: 9,
-    name: 'Marta Gancarek',
-    role: '5 - Klasa',
-    photo: '/staff/MartaGancarek.jpg',
-    photo2: '/staff/MartaGancarek2.jpg',
+    id: 21,
+    name: 'Julia Marszałek',
+    role: '6 - Klasa',
   },
   {
     id: 10,
