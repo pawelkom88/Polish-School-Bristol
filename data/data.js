@@ -45,7 +45,7 @@ const twoSaturdays = '2 Soboty';
 const oneSaturday = '1 Sobota';
 
 export const feesHolyCross = [
-  { id: 1, paymentDate: '26 września 2026', period: twoSaturdays },
+  { id: 1, paymentDate: '26 września 2026', period: oneSaturday },
   { id: 2, paymentDate: '3 października 2026', period: fourSaturdays },
   { id: 3, paymentDate: '7 listopada 2026', period: fourSaturdays },
   { id: 4, paymentDate: '5 grudnia 2026', period: twoSaturdays },
